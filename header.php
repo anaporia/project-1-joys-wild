@@ -15,13 +15,21 @@
 
 <body>
 
-    <header>
+<header>
+    <nav class=" nav navbar navbar-expand-lg fixed-top" id="mainNav">
+        <a class="navbar-brand" href="#page-top"><img src="img/logo.png" alt="logo"></a>
+        <button class="navbar-toggler btn btn-dark" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="navbar-nav offset-1" role="tablist">
+                <a class="nav-item nav-link active" href="#student">Elèves</a>
+                <a class="nav item nav-link" href="#trainer">Formateurs</a>
+                <a class="nav-item nav-link" href="#joy">Les joies de la Wild</a>
+                <a class="nav-item nav-link" href="#euratechnologie">Euratechnologie</a>
+            </div>
+        </div>
+    </nav>
+</header>
 
-    <?php
-
-    echo "hello";
-
-    ?>
-
-    </header>
 
