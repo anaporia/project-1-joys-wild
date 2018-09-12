@@ -14,3 +14,36 @@
 {
 	visibility: visible;
 }
+
+.media:hover .front
+{
+	visibility: hidden;
+}
+
+.media:hover .back
+{
+	visibility: visible;
+}
+
+.backform
+{
+	display: none;
+	width: 30%;
+}
+
+.frontform
+{
+	visibility: visible;
+	width: 30%;
+}
+
+.media:hover .frontform
+{
+	display: none;
+}
+
+.media:hover .backform
+{
+	display: inline;
+}
+
