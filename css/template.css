@@ -1,1 +1,16 @@
 /* Our CSS goes here */
+
+.back
+{
+	visibility: hidden;
+}
+
+.card:hover .front
+{
+	visibility: hidden;
+}
+
+.card:hover .back
+{
+	visibility: visible;
+}
