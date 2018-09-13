@@ -21,16 +21,16 @@
         <div class="container">
             <div class="row d-flex justify-content-between">
                 <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">   
-                    <a href="students.html"><img src="https://via.placeholder.com/150x150" alt="Students"></a>
+                    <a href="students.php"><img src="https://via.placeholder.com/150x150" alt="Students"></a>
                 </div>
                 <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">
-                    <a href="trainers.html"><img src="https://via.placeholder.com/150x150" alt="Trainers"></a>
+                    <a href="trainers.php"><img src="https://via.placeholder.com/150x150" alt="Trainers"></a>
                 </div>
                 <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">
-                    <a href="joys.html"><img src="https://via.placeholder.com/150x150" alt="Joys of the Wild"></a>
+                    <a href="joys.php"><img src="https://via.placeholder.com/150x150" alt="Joys of the Wild"></a>
                 </div>
                 <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">
-                    <a href="euratech.html"><img src="https://via.placeholder.com/150x150" alt="Euratechnologies"></a>
+                    <a href="euratech.php"><img src="https://via.placeholder.com/150x150" alt="Euratechnologies"></a>
                 </div>
             </div>
         </div>
