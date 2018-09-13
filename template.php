@@ -35,8 +35,8 @@
             </div>
         </div>
 
-    <section id="contact">
-        <p>à insérer</p>
+    <section id="contact" class="container">
+        <?php require ("contact.php"); ?>
     </section>
 
         <?php require('footer.php'); ?>
