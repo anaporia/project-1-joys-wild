@@ -51,3 +51,12 @@
 {
 	font-style: italic;
 }
+
+.carousel-caption{
+    color:#000;
+    position:static;
+}
+.item{
+    background-color:white;
+    display:block;
+}
