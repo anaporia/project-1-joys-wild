@@ -26,7 +26,7 @@
             <!-- Grid column -->
             <div class="col-xs-12 col-sm-2">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="template.php#contact">Contact</a>
+                    <a href="index.php#contact">Contact</a>
                 </h6>
             </div>
 
