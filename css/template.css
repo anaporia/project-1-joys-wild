@@ -60,3 +60,16 @@
     background-color:white;
     display:block;
 }
+
+.orange{
+	background-color: orangered;
+}
+
+/*FOOTER*/
+footer.page-footer a{
+	color: #fff;
+}
+
+.high{
+	width: 50%;
+}
