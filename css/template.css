@@ -60,3 +60,25 @@
     background-color:white;
     display:block;
 }
+/*COLOR NAV FOOTER*/
+.orange{
+	background-color: orangered;
+}
+/*NAVBAR*/
+a.navbar-brand{
+	color: #fff;
+}
+
+a.nav-link{
+	color: #fff;
+}
+
+
+/*FOOTER*/
+footer.page-footer a{
+	color: #fff;
+}
+
+.high{
+	width: 50%;
+}
