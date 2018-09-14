@@ -29,6 +29,31 @@
             <a href="euratech.php"><img src="img/euratech.jpg" alt="Euratechnologies"></a>
         </div>
     </div>
+
+<div class="row justify-content-center py-5">
+                <form class="comment_livre_or" method="post" action="treatment.php">
+                    <label for="comment">Please leave us your comment: </label><br />
+                    <textarea name="comment" id="comment" placeholder="Your comment here" rows="8" cols="40"></textarea>
+                        
+                    <br />
+                    <input type="button" value="Send" class="button"/>
+                </form>
+    </div>
+
+    <div class="row justify-content-around">
+        <div class="col-lg-5 col-md-4 col-sm-10 text-justify py-2">
+            <p class="small"><span class="h1">"</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus.<span class="h1">"</span></p>
+        </div>
+        <div class="col-lg-5 col-md-4 col-sm-10 text-justify py-2">
+            <p class="small"><span class="h1">"</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus.<span class="h1">"</span></p>
+        </div>
+        <div class="col-lg-5 col-md-4 col-sm-10 text-justify py-2">
+            <p class="small"><span class="h1">"</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus.<span class="h1">"</span></p>
+        </div>
+        <div class="col-lg-5 col-md-4 col-sm-10 text-justify py-2">
+            <p class="small"><span class="h1">"</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus.<span class="h1">"</span></p>
+        </div>
+    </div>
 </section>
 
 <section id="contact" class="container">
@@ -37,8 +62,6 @@
 </section>
 
 <?php require('footer.php'); ?>
-
-
 
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
