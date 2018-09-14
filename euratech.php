@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!-- Team 3 CSS -->
     <link rel="stylesheet" href="css/template.css">
-
+    <title>WCS-Euratechnologie</title>
 </head>
 
 <body>
 <?php require('header.php'); ?>
 
-<section>
+<section class="container-fluid">
     <!-- carousel images -->
     <div id="euratechCarousel" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -48,7 +43,6 @@
         </a>
     </div>
 
-
     <!-- carousel chiffres clé-->
     <div class="container mt-5">
         <div id="keyFigures" class="carousel slide" data-ride="carousel" data-interval="5000" data-wrap="true">
@@ -75,9 +69,7 @@
             </div>
         </div>
     </div>
-
 </section>>
-
 
 <!--section plan+texte-->
 <hr>

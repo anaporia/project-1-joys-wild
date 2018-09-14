@@ -8,16 +8,13 @@ $error =[];
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
         $error["nameError"] = "Veuillez remplir ce champ.";
-
     } else {
         $name = test_input($_POST["name"]);
         // check if name only contains letters and whitespace
         if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
             $error["nameError"] = "Seulement les lettres et espaces sont autorisés.";
-
         }
     }
-
     if (empty($_POST["mail"])) {
         $error["emailError"] = "Veuillez remplir ce champ.";
     } else {
@@ -27,7 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $error["emailError"] = "Le format n'est pas valide.";
         }
     }
-
     if (empty($_POST["phone"])) {
         $error["phoneError"] = "Veuillez remplir ce champ.";
     } else {
@@ -37,18 +33,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $error["phoneError"] = "Seulement les chiffres sont autorisés.";
         }
     }
-
     if (empty($_POST["message"])) {
         $error["messageError"] = "Veuillez remplir ce champ.";
     } else {
         $message = test_input($_POST["message"]);
     }
-
-
     if (count($error) == 0){
         echo "Message envoyé";
     }
-
 }
 
 function test_input($data) {
@@ -57,44 +49,30 @@ function test_input($data) {
     $data = htmlspecialchars($data);
     return $data;
 }
-
-
 ?>
+<form method="post" action="<?php echo strip_tags($_SERVER["contact.php"]);?>">
+    <div class="form-group">
+        <label for="name">Name :</label>
+        <input type="text" class="form-control" name="name" id="name" value="<?php if(isset($_POST["name"])) echo $_POST["name"]; ?>" required/>
+        <p class="error">* <?php echo $nameError;?></p>
+    </div>
+    <div class="form-group">
+        <label for="mail">E-mail :</label>
+        <input type="email" class="form-control" name="mail" id="mail" value="<?php if(isset($_POST["mail"])) echo $_POST["mail"]; ?>" required>
+        <p class="error">* <?php echo $emailError;?></p>
+    </div>
+    <div class="form-group">
+        <label for="phone">Téléphone :</label>
+        <input type="text" class="form-control" name="phone" id="phone" value="<?php if(isset($_POST["phone"])) echo $_POST["phone"]; ?>"required>
+        <p class="error">* <?php echo $phoneError;?></p>
+    </div>
+    <div class="form-group">
+        <label for="message">Message :</label>
+        <textarea class="form-control" name="message" id="message" placeholder="Your message" value="<?php if(isset($_POST["message"])) echo $_POST["message"]; ?>" required></textarea>
+        <p class="error">* <?php echo $messageError;?></p>
+    </div>
 
-<h1>Contact</h1>
-
-<section class="container">
-    <form method="post" action="<?php echo strip_tags($_SERVER["contact.php"]);?>">
-        <div class="form-group">
-            <label for="name">Name :</label>
-            <input type="text" class="form-control" name="name" id="name" value="<?php if(isset($_POST["name"])) echo $_POST["name"]; ?>" required/>
-            <p class="error">* <?php echo $nameError;?></p>
-        </div>
-        <div class="form-group">
-            <label for="mail">E-mail :</label>
-            <input type="email" class="form-control" name="mail" id="mail" value="<?php if(isset($_POST["mail"])) echo $_POST["mail"]; ?>" required>
-            <p class="error">* <?php echo $emailError;?></p>
-        </div>
-        <div class="form-group">
-            <label for="phone">Téléphone :</label>
-            <input type="text" class="form-control" name="phone" id="phone" value="<?php if(isset($_POST["phone"])) echo $_POST["phone"]; ?>"required>
-            <p class="error">* <?php echo $phoneError;?></p>
-        </div>
-
-        <select class="form-control">
-            <option>Option 1</option>
-            <option>Option 2</option>
-        </select>
-
-
-        <div class="form-group">
-            <label for="message">Message :</label>
-            <textarea class="form-control" name="message" id="message" placeholder="Your message" value="<?php if(isset($_POST["message"])) echo $_POST["message"]; ?>" required></textarea>
-            <p class="error">* <?php echo $messageError;?></p>
-        </div>
-
-        <div class="button">
-            <input type="submit" class="btn btn-primary" value="Send">
-        </div>
-    </form>
-</section>
+    <div class="button">
+        <input type="submit" class="btn btn-primary" value="Send">
+    </div>
+</form>
