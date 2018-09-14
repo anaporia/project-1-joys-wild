@@ -79,6 +79,10 @@ footer.page-footer a{
 	color: #fff;
 }
 
+footer.page-footer li {
+	list-style: none;
+}
+
 .high{
 	width: 50%;
 }
