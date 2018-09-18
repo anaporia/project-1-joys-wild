@@ -10,12 +10,6 @@
             <li class="col-xs-12 col-sm-3 text-uppercase font-weight-bold">
                     <a href="index.php#contact">Contact</a>
             </li>
-            <li class="col-xs-12 col-sm-2 text-uppercase font-weight-bold">
-                <img class="high" src="img/facebook.png" alt="facebook">
-            </li>
-            <li class="col-xs-12 col-sm-2 text-uppercase font-weight-bold">
-                <img class="high" src="img/twitter.png" alt="Twitter">
-            </li>
         </ul>
         <div class="row">
             <div class="text-center py-3">
