@@ -7,19 +7,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="students.php">Eleves</a>
+                    <a class="nav-link" href="students.php">Students</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="trainers.php">Formateurs</a>
+                    <a class="nav-link" href="trainers.php">Trainers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="joys.php">Les Joies de la Wild</a>
+                    <a class="nav-link" href="joys.php">The Joys of the Wild</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="euratech.php">Euratechnologie</a>
+                    <a class="nav-link" href="euratech.php">Euratechnologies</a>
                 </li>
             </ul>
         </div>

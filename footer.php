@@ -5,7 +5,7 @@
                     <a href="faq.php">F.A.Q.</a>
             </li>
             <li class="col-xs-12 col-sm-3 text-uppercase font-weight-bold">
-                    <a href="mention.php">Mentions légales</a>
+                    <a href="mention.php">Legal Mentions</a>
             </li>
             <li class="col-xs-12 col-sm-3 text-uppercase font-weight-bold">
                     <a href="index.php#contact">Contact</a>

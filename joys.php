@@ -3,44 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fun website of the Wild Code School">
+    <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
+    <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Dulmas, Steven Antal, Arlensiú Celis">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/template.css">
-    <title>LWCS-es Joies de la Wild</title>
+    <title>WCS - The Joys of the Wild</title>
 </head>
 
 <body>
 <?php require('header.php'); ?>
 
-<section class="container-fluid">
-    <!-- carousel images -->
-    <div id="joysCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000" data-wrap="true">
-        <!-- The slideshow -->
-        <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-                <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="first slide">
+<section id="joysCarousel" class="my-3">
+    <div class="container-fluid">
+        <!-- carousel images -->
+        <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000" data-wrap="true">
+            <!-- The slideshow -->
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="first slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="third slide">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="third slide">
-            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#joysCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#joysCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#joysCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#joysCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 </section>
-<br>
-<br>
 
-<section>
+<section id="joys-text" class="my-3">
     <div class="container">
         <div class="row">
             <div class="col-10">
@@ -53,9 +56,7 @@
 </section>
 
 <!--section gifs-->
-<br>
-<br>
-<section>
+<section id="gifs">
     <div class="container-fluid d-flex justify-content-around">
         <div class="row">
             <div class="col">
@@ -88,7 +89,6 @@
             </div>
         </div>
     </div>
-
 </section>
 <?php require('footer.php'); ?>
 

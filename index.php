@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fun website of the Wild Code School">
+    <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
+    <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Dulmas, Steven Antal, Arlensiú Celis">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/template.css">
     <title>Wild Code School</title>
@@ -11,12 +14,15 @@
 <body>
 <?php require('header.php'); ?>
 
-<section>
+<section id="index-banner">
     <div class="container-fluid">
         <div class="row">
-            <img class="d-block w-100 pb-3" src="https://via.placeholder.com/350x150" alt="Wild Code School">
+            <img class="d-block w-100 pb-3" src="https://via.placeholder.com/350x75" alt="Wild Code School">
         </div>
     </div>
+</section>
+
+<section id="anchors">
     <div class="container">
         <div class="row d-flex justify-content-between">
             <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">
@@ -35,10 +41,10 @@
     </div>
 </section>
 
-<section id="book">
+<section id="guestbook">
     <div class="container">
         <div class="row justify-content-center py-5">
-            <form class="comment_livre_or" method="post" action="treatment.php">
+            <form class="comment-livre-or" method="post" action="treatment.php">
                 <label for="comment">Please leave us your comment: </label><br />
                 <textarea name="comment" id="comment" placeholder="Your comment here" rows="8" cols="40"></textarea>
                 <br>

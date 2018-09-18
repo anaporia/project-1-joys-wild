@@ -62,7 +62,7 @@ function test_input($data) {
         <p class="error">* <?php echo $emailError;?></p>
     </div>
     <div class="form-group">
-        <label for="phone">Téléphone :</label>
+        <label for="phone">Telephone number:</label>
         <input type="text" class="form-control" name="phone" id="phone" value="<?php if(isset($_POST["phone"])) echo $_POST["phone"]; ?>"required>
         <p class="error">* <?php echo $phoneError;?></p>
     </div>

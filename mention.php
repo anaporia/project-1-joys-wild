@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fun website of the Wild Code School">
+    <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
+    <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Dulmas, Steven Antal, Arlensiú Celis">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/template.css">
-    <title>WCS-Mentions Légales</title>
+    <title>WCS - Legal Mentions</title>
 </head>
 
 <body>
 <?php require('header.php'); ?>
 
-
-<section class="container">
-    <div class="row">
-        用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。
-    </div>
-    <div class="row">用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。
+<section id="mentions-legales">
+    <div class="container">
+        <div class="row">
+            用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。
+        </div>
+        <div class="row">用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。用中文寫出許多難以理解的句子。
+        </div>
     </div>
 </section>
 
