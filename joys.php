@@ -5,41 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/template.css">
-    <title>LWCS-es Joies de la Wild</title>
+    <title>WCS-Les Joies de la Wild</title>
 </head>
 
 <body>
 <?php require('header.php'); ?>
 
-<section class="container-fluid">
-    <!-- carousel images -->
-    <div id="joysCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000" data-wrap="true">
-        <!-- The slideshow -->
-        <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-                <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="first slide">
+<section>
+    <div class="container-fluid">
+        <div id="joysCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000" data-wrap="true">
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="first slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="third slide">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="third slide">
-            </div>
+            <a class="carousel-control-prev" href="#joysCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#joysCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#joysCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#joysCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 </section>
-<br>
-<br>
-
 <section>
     <div class="container">
         <div class="row">
@@ -51,44 +47,67 @@
         </div>
     </div>
 </section>
-
-<!--section gifs-->
-<br>
-<br>
 <section>
     <div class="container-fluid d-flex justify-content-around">
         <div class="row">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://via.placeholder.com/140x100" alt="Card image cap">
+                    <img class="card-img-top" src="https://media.giphy.com/media/10DjIRoAfylalG/giphy.gif" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">GIF 1</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p class="card-text">Quand un wilder réussit une quête.</p>
                     </div>
                 </div>
             </div>
 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://via.placeholder.com/140x100" alt="Card image cap">
+                    <img class="card-img-top" src="https://media.giphy.com/media/9kKlRx7qpUGze/giphy.gif" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">GIF 2</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p class="card-text">Quand je supprime une ligne de code que je pensais inutile et que tout plante.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://via.placeholder.com/140x100" alt="Card image cap">
+                    <img class="card-img-top" src="https://media.giphy.com/media/HZpCCbcWc0a3u/giphy.gif" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">GIF 3</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p class="card-text">PHP VERSUS JS</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="container-fluid d-flex justify-content-around">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://media.giphy.com/media/orNv7BpL7Y2iI/giphy.gif" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Quand une équipe de wilder attaque un projet.</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://media.giphy.com/media/h41bl4ZNk276w/giphy.gif" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Quand il faut finir ses quêtes à temps (et qu'il en reste la moitié bien évidemment).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://media.giphy.com/media/1Xn0wUBoeOtRC/giphy.gif" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Le dojo du mardi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <?php require('footer.php'); ?>
 
