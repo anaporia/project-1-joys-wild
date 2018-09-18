@@ -60,7 +60,10 @@
     background-color:white;
     display:block;
 }
-
+/*Background FOOTER NAVBAR*/
+.black {
+	background-color: black;
+}
 /*NAVBAR*/
 a.navbar-brand{
 	color: #fff;

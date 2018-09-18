@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-lg orange">
+    <nav class="navbar navbar-expand-lg black">
         <a class="navbar-brand" href="index.php">Wild Code School</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <img class="navbar-toggler-icon" src="img/button.jpg">

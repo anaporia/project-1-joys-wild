@@ -1,4 +1,4 @@
-<footer class="page-footer font-small orange">
+<footer class="page-footer font-small black">
     <div class="container">
         <ul class="row text-center d-flex justify-content-center pt-5 mb-3">
             <li class="col-xs-12 col-sm-2 text-uppercase font-weight-bold">
