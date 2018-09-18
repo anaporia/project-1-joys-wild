@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message = test_input($_POST["message"]);
     }
     if (count($error) == 0){
-        echo "Message envoyé";
+        $send = "Yes data !!!! Even more data !!!! Always data !!!!!!! Mouahaha !!!";
     }
 }
 
@@ -74,5 +74,8 @@ function test_input($data) {
 
     <div class="button">
         <input type="submit" class="btn btn-primary" value="Send">
+    </div>
+    <div id="send">
+        <p><?php echo $send; ?></p>
     </div>
 </form>
