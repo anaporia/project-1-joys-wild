@@ -1,57 +1,46 @@
-let tasks = [
-  {
-    label: "My first task",
-    author: "Me",
-    dueDate: new Date()
-  },
-  {
-    label: "Second task",
-    author: "Me",
-    dueDate: new Date("2018-11-25")
-  }
+let guestbookEntries = [                                // 1 - We create a set of fake data to begin with //
+    {
+        Message: "It was good",
+        Date: "Date1"
+    },
+    {
+        Message: "So excellent",
+        Date: "Date2"
+    }
 ];
 
-const updateTasksList = function() {
-  const todoList = document.querySelector("#todoList");
-  todoList.innerHTML = null;
-  for (let currentTask of tasks) {
-    let newElement = document.createElement("li");
-    newElement.innerHTML = currentTask.label;
+function postGuestbook() {                                  // 12 - make the appearance of the guestbook as a function to later use it
+    const guestbook = document.querySelector("#book");      // 2 - this tells us which place we are going to put stuff into, in this case is the UL with ID book
+    guestbook.innerHTML = null;                             // 15 - We realize the list must be empty before we print it
 
-    if (currentTask.dueDate < new Date()) {
-      newElement.classList.add("overdue");
+    for (let currentEntry of guestbookEntries){             // 3 - we will first create a list that displays all the previously stored messages //
+        let postMessage = document.createElement("li");      // 4 - here we create a new html element with a newMessage variable, in this case a li //
+        let postDate = document.createElement("li");
+
+        postMessage.innerHTML = currentEntry.Message;        // 5 - this tells the class or id or whatever html element that inside itself there must be certain information //
+        postDate.innerHTML = currentEntry.Date;
+        guestbook.append(postMessage);                       // 6 - I am saying that on the ID that we identified before, we will now append the created LI
+        guestbook.append(postDate);
     }
-
-    newElement.addEventListener("click", function() {
-      this.classList.toggle("done");
-    });
-
-    todoList.append(newElement);
-  }
 };
 
-const addTaskButton = document.querySelector("#addTaskButton");
-addTaskButton.addEventListener("click", function() {
-  let taskLabel = prompt("What do you want to do ?");
-  const today = new Date();
-  let newTask = {
-    label: taskLabel,
-    author: "Me(generated)",
-    dueDate: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate() + 7
-    )
-  };
-  tasks.push(newTask);
+postGuestbook();                                            // 14 - You realize there is no list to begin with so you put the list before any changes
 
-  updateTasksList();
-});
+let buttonGuestbook = document.querySelector("#buttonGuestbook");    // 7 - Tell to get the element button
+    buttonGuestbook.addEventListener("click", function(){               // 8 - Add event click to the element button
 
-updateTasksList();
-/*
-const tasksDone = document.querySelector("li");
-h1.addEventListener("click", function() {
-  this.classList.toggle("done");
-});
-*/
+    let newMessage = prompt("Write a new message: ");               // 9 - Ask user the info, I have to change this to a get string from Text-area field
+
+    let newEntry = {                                            // 10 - Create a new entry for the guestbookEntries with a message as the received info
+        Message: newMessage,
+        Date: "Date3"
+    };
+
+    guestbookEntries.push(newEntry);                            // 11 - Put the new entry as part of the Guestbook array
+    postGuestbook();                                            // 13 - Make the list appear once the data is asked and can be added to show
+    });
+
+
+
+
+//const response = prompt("What is your message ?");
