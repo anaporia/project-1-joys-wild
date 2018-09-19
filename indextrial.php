@@ -29,7 +29,7 @@
 				</div>
 			</div>
 
-			<div class="row my-5" id="book">
+			<div class="row justify-content-center my-5" id="book">
 				<!--Here is where the reviews go-->
 			</div>
 		</section>

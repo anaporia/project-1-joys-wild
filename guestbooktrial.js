@@ -30,6 +30,7 @@ function postGuestbook() {                                  			// 12 - make the 
 		postMessage.classList.add("col-8", "messageGuest");
 		postDate.classList.add("col-2", "dateGuest");
 
+        postImage.style.backgroundImage="url(img/joy.jpg)" 
         postMessage.innerHTML = currentEntry.Message;       			// 5 - this tells the class or id or whatever html element that inside itself there must be certain information //
         postDate.innerHTML = currentEntry.Date;
 
@@ -61,5 +62,15 @@ let buttonGuestbook = document.querySelector("#buttonGuestbook");    	// 7 - Tel
     postGuestbook();                                            		// 13 - Make the list appear once the data is asked and can be added to show
 
     document.querySelector("textarea").value = null;					// 18 - Empty the textarea box after the message has been sent
+    
+//    let guestbookSerialized = JSON.stringify(guestbookEntries);
+
+//    localStorage.setItem("myBook", guestbookSerialized);
+
+//    let guestbookDeserialized = JSON.parse(localStorage.getItem("myBook"));
+ 
+//    console.log(guestbookDeserialized);
 
     });
+
+// console.log(guestbookEntries);

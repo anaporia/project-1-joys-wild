@@ -3,13 +3,31 @@
 }
 
 .imageGuest{
-	background: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/626.png") no-repeat;
+	border: 2px solid black;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .messageGuest{
-	
+	border: 2px solid black;	
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .dateGuest{
-	
+	border: 2px solid black;
+	margin-top: 2%;
+	margin-bottom: 2%;
+
 }
+
+#book div{
+	height: 20vh;
+}
+
+#book{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*if the message is too big, ADD a bar that allows to scroll*/
