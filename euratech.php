@@ -8,6 +8,8 @@
     <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Dulmas, Steven Antal, Arlensiú Celis">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
     <title>WCS-Euratechnologie</title>
 </head>
 
@@ -48,33 +50,18 @@
         </div>
 
         <!-- carousel chiffres clé-->
-        <div class="container mt-5">
-            <div id="keyFigures" class="carousel slide" data-ride="carousel" data-interval="5000" data-wrap="true">
-                <!-- The slideshow -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item text-center active">
-                        <p>wow really?!</p>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <p>I didn't know that!</p>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <p>You learn something new every day</p>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <p>This is the best key figure yet</p>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <p>good one. I wonder what's next</p>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <p>crazy figures!</p>
-                    </div>
-                </div>
+        <div id="keyFiguresSlider" class="container mt-5">
+            <div class="slider">
+                <h3 class="keyFigures">wow really?!</h3>
+                <h3 class="keyFigures">I didn't know that!</h3>
+                <h3 class="keyFigures">You learn something new every day</h3>
+                <h3 class="keyFigures">This is the best key figure yet</h3>
+                <h3 class="keyFigures">good one. I wonder what's next</h3>
+                <h3 class="keyFigures">crazy figures !</h3>
             </div>
         </div>
     </div>
-</section>>
+</section>
 
 <!--section plan+texte-->
 <hr>
@@ -105,5 +92,7 @@
 <!--Old script (popper) that did not appear in the new documentation that I just put here between-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+<script src="js/slider.js"></script>
 </body>
 </html>
