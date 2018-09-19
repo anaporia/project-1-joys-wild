@@ -84,6 +84,15 @@ div#keyFiguresSlider {
 	text-align: center;
 }
 
+/* ICONS HOME */
+#anchors img{
+	border-radius: 20px;
+}
+
+.text_icon{
+	padding-top: 4%;
+}
+
 /*  FORM  */
 
 h2 {
