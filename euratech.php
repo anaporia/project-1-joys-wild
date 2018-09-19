@@ -74,8 +74,8 @@
                     <img class="align-self-start mr-5" src="https://via.placeholder.com/350x150" alt="Generic placeholder image">
                     <div class="media-body">
                         <h5 class="mt-0">Euratechnologies</h5>
-                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                        <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <p>The Blan-Lafont building, the heart of the EuraTechnologies cluster, is the result of the exemplary rehabilitation of two former Lafont and Le Blan textile factories built respectively in 1896 and 1900. In 1989, following the general crisis in the cotton industry, and after having been one of the 7 largest cotton mills in France with nearly 2500 employees, the factory Blan-Lafont filed for bankruptcy. In 1996, the Urban Community of Lille opted for a conversion project: EuraTechnologies, economic center of excellence dedicated to ICT, inaugurated on March 26, 2009.</p>
+                        EuraTechnologies has become the leading incubator and accelerator in France, the center of excellence and innovation located in Lille on 80,000 m². EuraTechnologies supports the development of all digital entrepreneurs through unique methodology and know-how in business support, from seed to international deployment. Born in 2009, EuraTechnologies is ranked in the top 3 accelerators in Europe. Precursor of French Tech and spearhead of the digital economy in France.
                     </div>
                 </div>
             </div>
