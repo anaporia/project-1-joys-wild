@@ -17,7 +17,7 @@
 <?php require('header.php'); ?>
 
 <section id="euratechCarousel">
-    <div class="container-fluid">
+    <div class="container-fluid ml-0 mr-0 pl-0 pr-0">
         <!-- carousel images -->
         <div  class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -28,7 +28,7 @@
             <!-- The slideshow -->
             <div class="carousel-inner text-center">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="first slide">
+                    <img class="d-block w-100 img-fluid img-responsive" src="img/euratech_banner.jpg" alt="first slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="second slide">

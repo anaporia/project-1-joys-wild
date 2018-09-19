@@ -17,7 +17,7 @@
 <section id="index-banner">
     <div class="container-fluid">
         <div class="row">
-            <img class="d-block w-100 pb-3" src="https://via.placeholder.com/350x75" alt="Wild Code School">
+            <img class="d-block w-100 pb-3" src="img/welcome.png" alt="Wild Code School">
         </div>
     </div>
 </section>
@@ -25,17 +25,21 @@
 <section id="anchors">
     <div class="container">
         <div class="row d-flex justify-content-between">
-            <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">
-                <a href="students.php"><img src="img/students.png" alt="Students"></a>
+            <div class="col flex-column d-flex justify-content-center text-center ml-1 mr-1 mt-1 mb-1">
+                <a href="students.php"><img src="img/our_students1.jpg" alt="Students"></a>
+                <p class="text_icon">Students</p>
             </div>
-            <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">
-                <a href="trainers.php"><img src="img/trainer.jpg" alt="Trainers"></a>
+            <div class="col flex-column d-flex justify-content-center text-center ml-1 mr-1 mt-1 mb-1">
+                <a href="trainers.php"><img src="img/our_trainers.jpg" alt="Trainers"></a>
+                <p class="text_icon">Trainers</p>
             </div>
-            <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">
-                <a href="joys.php"><img src="img/joy.jpg" alt="Joys of the Wild"></a>
+            <div class="col flex-column d-flex justify-content-center text-center ml-1 mr-1 mt-1 mb-1">
+                <a href="joys.php"><img src="img/our_joy.jpg" alt="Joys of the Wild"></a>
+                <p class="text_icon">Joys of the Wild</p>
             </div>
-            <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">
-                <a href="euratech.php"><img src="img/euratech.jpg" alt="Euratechnologies"></a>
+            <div class="col flex-column d-flex justify-content-center text-center ml-1 mr-1 mt-1 mb-1">
+                <a href="euratech.php"><img src="img/euratech_icon.jpg" alt="Euratechnologies"></a>
+                <p class="text_icon">Euratechnologies</p>
             </div>
         </div>
     </div>
