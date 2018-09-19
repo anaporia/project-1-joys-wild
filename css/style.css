@@ -62,7 +62,7 @@
 }
 /*Background FOOTER NAVBAR*/
 .black {
-	background-color: black;
+	background-color: #fba858;
 }
 /*NAVBAR*/
 a.navbar-brand{
@@ -73,6 +73,16 @@ a.nav-link{
 	color: #fff;
 }
 
+/* EURATECH slider */
+
+h3.keyFigures {
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+div#keyFiguresSlider {
+	margin-top: 3rem;
+	text-align: center;
+}
 
 /*  FORM  */
 
