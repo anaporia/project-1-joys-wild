@@ -29,10 +29,8 @@
 				</div>
 			</div>
 
-			<div class="row my-5">
-				<div class="col" id="book">
-				    <!--Here is where the reviews go-->
-				</div>
+			<div class="row my-5" id="book">
+				<!--Here is where the reviews go-->
 			</div>
 		</section>
 	</div>
