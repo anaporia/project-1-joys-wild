@@ -1,28 +1,62 @@
+@font-face {
+	font-family: 'JosefinRegular';
+	src: url(../polices/JosefinSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'AmaticSC-Bold';
+	src: url(../polices/AmaticSC-Bold.ttf) format('truetype');
+	font-style: bold;
+}
+
+body{
+	background-color: orange;
+	color: white;
+}
+
+.container{
+	background-color: teal;
+}
+
 #buttonGuestbook{
-	width: 20%;
+	width: 10%;
+	font-family: 'JosefinRegular';
 }
 
 .imageGuest{
-	border: 2px solid black;
+	border-left: 2px solid orange;
+	border-top: 2px solid orange;
+	border-bottom: 2px solid orange;
 	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-bottom: 3%;
+	padding-left: 2%;
 }
 
 .messageGuest{
-	border: 2px solid black;	
+	border-top: 2px solid orange;
+	border-bottom: 2px solid orange;
 	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-bottom: 3%;
+	font-family: 'JosefinRegular';
+	vertical-align: middle;
+	padding-top: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 5%;
 }
 
 .dateGuest{
-	border: 2px solid black;
+	border-right: 2px solid orange;
+	border-top: 2px solid orange;
+	border-bottom: 2px solid orange;
 	margin-top: 2%;
-	margin-bottom: 2%;
-
-}
-
-#book div{
-	height: 20vh;
+	margin-bottom: 3%;
+	font-family: 'JosefinRegular';
+	padding-top: 6%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 6%;
+	text-align: center;
 }
 
 #book{
@@ -30,4 +64,18 @@
 	margin-right: 5%;
 }
 
-/*if the message is too big, ADD a bar that allows to scroll*/
+h1{
+	font-family: 'AmaticSC-Bold';
+}
+
+.guestbook-request p{
+	font-family: 'JosefinRegular';
+}
+
+/*if the message is too big, ADD a bar that allows to scroll
+	
+	add media queries for when the guestbook goes super small,
+	then the image of the reindeer dissapears and only the text and
+	date stay, for .... tablet size i think hehe	
+
+*/

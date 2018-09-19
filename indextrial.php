@@ -14,7 +14,7 @@
 
 	<div class="container">
 		<section id="guestbook">
-	      	<h2 class="text-center">Wild Guestbook</h2>
+	      	<h1 class="text-center mt-5 pt-5 pb-5">Wild Guestbook</h1>
 	   		<div class="row">
 	   			<div class="col d-flex flex-column">
 			   		<form class="guestbook-request d-flex justify-content-center">
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 
-			<div class="row justify-content-center my-5" id="book">
+			<div class="row justify-content-center mb-5 mt-3" id="book">
 				<!--Here is where the reviews go-->
 			</div>
 		</section>

@@ -2,8 +2,8 @@ let guestbookEntries = [                                // 1 - We create a set o
     {
         Message: "This site is full of super funny !! I'd visit it again and again just for the gifs xDD",
         Date: "Sep 15, 2018 12:50"
-    },
-    {
+    }//,
+ /*   {
         Message: "Truth to be told, my budget on socks has increased considerably since I arrived to the Wild School",
         Date: "Sep 17, 2018 03:30"
     },
@@ -14,7 +14,7 @@ let guestbookEntries = [                                // 1 - We create a set o
     {
         Message: "I am most certainly in the future, as we already had a few beers and well ... the date is weird ...",
         Date: "Sep 19, 2018 18:50"
-    }
+    }*/
 ];
 
 function postGuestbook() {                                  			// 12 - make the appearance of the guestbook as a function to later use it
@@ -27,10 +27,10 @@ function postGuestbook() {                                  			// 12 - make the 
         let postDate = document.createElement("div");
 
 		postImage.classList.add("col-2", "imageGuest");
-		postMessage.classList.add("col-8", "messageGuest");
-		postDate.classList.add("col-2", "dateGuest");
+		postMessage.classList.add("col-7", "messageGuest");
+		postDate.classList.add("col-3", "dateGuest");
 
-        postImage.style.backgroundImage="url(img/joy.jpg)" 
+        postImage.style.backgroundImage="url(img/image_guestbook2.png)" 
         postMessage.innerHTML = currentEntry.Message;       			// 5 - this tells the class or id or whatever html element that inside itself there must be certain information //
         postDate.innerHTML = currentEntry.Date;
 
