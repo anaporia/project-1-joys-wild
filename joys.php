@@ -49,7 +49,7 @@
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="https://media.giphy.com/media/10DjIRoAfylalG/giphy.gif" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">Quand un wilder réussit une quête.</p>
+                        <p class="card-text">When a wilder succeeds a quest.</p>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="https://media.giphy.com/media/9kKlRx7qpUGze/giphy.gif" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">Quand je supprime une ligne de code que je pensais inutile et que tout plante.</p>
+                        <p class="card-text">When I delete a line of code that I thought was useless and that everything crashes.</p>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="https://media.giphy.com/media/HZpCCbcWc0a3u/giphy.gif" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">PHP VERSUS JS</p>
+                        <p class="card-text">PHP VERSUS JavaScript.</p>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://media.giphy.com/media/orNv7BpL7Y2iI/giphy.gif" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Quand une équipe de wilder attaque un projet.</p>
+                            <p class="card-text">When a wilder team attacks a project.</p>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://media.giphy.com/media/h41bl4ZNk276w/giphy.gif" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Quand il faut finir ses quêtes à temps (et qu'il en reste la moitié bien évidemment).</p>
+                            <p class="card-text">When you have to finish your quests in time (and half of it remains of course).</p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://media.giphy.com/media/1Xn0wUBoeOtRC/giphy.gif" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Le dojo du mardi.</p>
+                            <p class="card-text">Tuesday's dojo.</p>
                         </div>
                     </div>
                 </div>
