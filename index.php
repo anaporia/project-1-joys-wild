@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="css/template.css">
     <title>Document</title>
 </head>
 
@@ -16,7 +16,7 @@
     </ul>
     <button id="addTaskButton">Add a Task</button>
 
-    <script src="todo.js"></script>
+    <script src="guestbook.js"></script>
 </body>
 
 </html>

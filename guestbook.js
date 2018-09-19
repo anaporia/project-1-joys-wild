@@ -16,7 +16,7 @@ const updateTasksList = function() {
   todoList.innerHTML = null;
   for (let currentTask of tasks) {
     let newElement = document.createElement("li");
-    newElement.innerHTML = currentTask.label;
+    newElement.innerHTML = currentTask.label;     // only get the date with currentTask.dueDate, otherwise with label for the task itself
 
     if (currentTask.dueDate < new Date()) {
       newElement.classList.add("overdue");
@@ -49,9 +49,3 @@ addTaskButton.addEventListener("click", function() {
 });
 
 updateTasksList();
-/*
-const tasksDone = document.querySelector("li");
-h1.addEventListener("click", function() {
-  this.classList.toggle("done");
-});
-*/
