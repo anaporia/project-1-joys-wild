@@ -16,7 +16,7 @@
         "isSuccess" => false
     ];
 
-    $emailTo = "julie.delmas33@gmail.com";
+    $emailTo = "projetwild@gmail.com";
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $array["firstname"] = test_input($_POST["firstname"]);
