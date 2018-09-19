@@ -3,68 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fun website of the Wild Code School">
+    <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
+    <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Dulmas, Steven Antal, Arlensiú Celis">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>WCS-Euratechnologie</title>
 </head>
 
 <body>
 <?php require('header.php'); ?>
 
-<section class="container-fluid">
-    <!-- carousel images -->
-    <div id="euratechCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#euratechCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#euratechCarousel" data-slide-to="1"></li>
-            <li data-target="#euratechCarousel" data-slide-to="2"></li>
-        </ol>
-        <!-- The slideshow -->
-        <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-                <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="first slide">
+<section id="euratechCarousel">
+    <div class="container-fluid">
+        <!-- carousel images -->
+        <div  class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#euratechCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#euratechCarousel" data-slide-to="1"></li>
+                <li data-target="#euratechCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- The slideshow -->
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="first slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="third slide">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="third slide">
-            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#euratechCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#euratechCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
 
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#euratechCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#euratechCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-
-    <!-- carousel chiffres clé-->
-    <div class="container mt-5">
-        <div id="keyFigures" class="carousel slide" data-ride="carousel" data-interval="5000" data-wrap="true">
-            <!-- The slideshow -->
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item text-center active">
-                    <p>wow really?!</p>
-                </div>
-                <div class="carousel-item text-center">
-                    <p>I didn't know that!</p>
-                </div>
-                <div class="carousel-item text-center">
-                    <p>You learn something new every day</p>
-                </div>
-                <div class="carousel-item text-center">
-                    <p>This is the best key figure yet</p>
-                </div>
-                <div class="carousel-item text-center">
-                    <p>good one. I wonder what's next</p>
-                </div>
-                <div class="carousel-item text-center">
-                    <p>crazy figures!</p>
+        <!-- carousel chiffres clé-->
+        <div class="container mt-5">
+            <div id="keyFigures" class="carousel slide" data-ride="carousel" data-interval="5000" data-wrap="true">
+                <!-- The slideshow -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item text-center active">
+                        <p>wow really?!</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p>I didn't know that!</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p>You learn something new every day</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p>This is the best key figure yet</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p>good one. I wonder what's next</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p>crazy figures!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -73,9 +78,8 @@
 
 <!--section plan+texte-->
 <hr>
-<br>
-<br>
-<section>
+
+<section id="euratech-text" class="my-3">
     <div class="container">
         <div class="row">
             <div class="col-11">

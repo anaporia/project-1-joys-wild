@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message = test_input($_POST["message"]);
     }
     if (count($error) == 0){
-        echo "Message envoyé";
+        $send = "Yes data !!!! Even more data !!!! Always data !!!!!!! Mouahaha !!!";
     }
 }
 
@@ -62,7 +62,7 @@ function test_input($data) {
         <p class="error">* <?php echo $emailError;?></p>
     </div>
     <div class="form-group">
-        <label for="phone">Téléphone :</label>
+        <label for="phone">Telephone number:</label>
         <input type="text" class="form-control" name="phone" id="phone" value="<?php if(isset($_POST["phone"])) echo $_POST["phone"]; ?>"required>
         <p class="error">* <?php echo $phoneError;?></p>
     </div>
@@ -74,5 +74,8 @@ function test_input($data) {
 
     <div class="button">
         <input type="submit" class="btn btn-primary" value="Send">
+    </div>
+    <div id="send">
+        <p><?php echo $send; ?></p>
     </div>
 </form>

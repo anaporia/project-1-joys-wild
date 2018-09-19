@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fun website of the Wild Code School">
+    <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
+    <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Dulmas, Steven Antal, Arlensiú Celis">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/template.css">
-    <title>WCS-Les Joies de la Wild</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>WCS - The Joys of the Wild</title>
 </head>
 
 <body>
 <?php require('header.php'); ?>
 
-<section>
+<section id="joysCarousel" class="my-3">
     <div class="container-fluid">
-        <div id="joysCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000" data-wrap="true">
+        <!-- carousel images -->
+        <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000" data-wrap="true">
+            <!-- The slideshow -->
             <div class="carousel-inner text-center">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="first slide">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="first slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="second slide">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x150" alt="third slide">
+                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#joysCarousel" role="button" data-slide="prev">
@@ -36,18 +41,8 @@
         </div>
     </div>
 </section>
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-10">
-                <h5>Joyces of the Wild</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-            </div>
-        </div>
-    </div>
-</section>
-<section>
+
+<section id="joys-text" class="my-3">
     <div class="container-fluid d-flex justify-content-around">
         <div class="row">
             <div class="col">
@@ -77,6 +72,7 @@
             </div>
         </div>
     </div>
+
     <div class="row">
         <div class="container-fluid d-flex justify-content-around">
             <div class="row">
