@@ -75,7 +75,7 @@
 
 <section id="contact">
     <div class="container">
-        <h2>Contactez-moi</h2>
+        <h2>Contact Us</h2>
         <form id="contact-form" method="post" action="php/contact.php" enctype="multipart/form-data">
             <div class="row">
                 <div class="col">

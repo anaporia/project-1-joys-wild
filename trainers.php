@@ -27,8 +27,9 @@
 	                <img class="backform align-self-center" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="formateur1">
 	                <img class="frontform align-self-center" src="img/loic.png" alt="egoformateur1">
 	                <div class="media-body align-self-center py-3 ml-4 px-8 text-justify">
-	                    <h5 class="mt-0 mb-3">Trainer 1 - Title</h5>
-	                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+	                    <h5 class="mt-0 mb-3">Loïc Brassart -  Javascript React Trainer </h5>
+	                    <p> Trainer at the Wild, since September 2018, he trains wilders in Javascript language.<br>
+							With its appearance of Viking or Hard Rock Singer, he has something in common with Frodon...</p>
 	                </div>
 	            </div>
 	        </div>
@@ -36,8 +37,13 @@
 	        <div class="col-8">
 	            <div class="media">
 	                <div class="media-body align-self-center py-3 mr-4 px-8 text-justify">
-	                    <h5 class="mt-0 mb-3">Trainer 2 - Title</h5>
-	                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+	                    <h5 class="mt-0 mb-3">Olivier Trentesaux - Campus Manager </h5>
+	                    <p>He develops and manages the campus of Lille Wild Code School<br>
+							His missions:<br>
+							Creation and development of business partnerships.<br>
+							Relationship Management with School Customers.<br>
+							Recruitment, coaching and coaching of students towards employment.<br>
+							As you can see, he is always alongside his wilders .... </p>
 	                </div>
 	                <img class="backform align-self-center" src="img/olivier_cover.png" alt="formateur1">
 	                <img class="frontform align-self-center" src="img/olivier.png" alt="egoformateur1">
@@ -49,8 +55,11 @@
 	                <img class="backform align-self-center" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="formateur1">
 	                <img class="frontform align-self-center" src="img/gaetan.png" alt="egoformateur1">
 	                <div class="media-body align-self-center py-3 ml-4 px-8 text-justify">
-	                    <h5 class="mt-0 mb-3">Trainer 3 - Title</h5>
-	                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+	                    <h5 class="mt-0 mb-3">Gaëtan Rolé-Dubruille - Php Trainer </h5>
+	                    <p> He trains wilders to new technologies and their operations.<br>
+							He joined the WildCodeSchool as LeadDev Full Stack for the purpose of leading client projects while training young web developers.<br>
+							Gaetan is always ready for new challenges........</p>
+							
 	                </div>
 	            </div>
 	        </div>

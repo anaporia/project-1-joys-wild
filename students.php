@@ -18,8 +18,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h1>Student's page title</h1>
-                <p>This is the text that appears explaining the content that you are about to see.</p>
+                <h1>Students</h1>
+                <p>You want to become a future Wilders? Look the différents qualities that you must have!!</p>
             </div>
         </div>
 
@@ -31,7 +31,29 @@
                         <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
                     </div>
                     <div class="card-body text-center">
-                        <p class="card-text">Text of image 1</p>
+                        <p class="card-text">Insomniac</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-9">
+                <div class="card my-4">
+                    <img class="card-img-top back" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="characteristic1">
+                    <div class="card-img-overlay">
+                        <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-center">Happy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-9">
+                <div class="card my-4">
+                    <img class="card-img-top back" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="characteristic1">
+                    <div class="card-img-overlay">
+                        <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-center">Be in shape</p>
                     </div>
                 </div>
             </div>
@@ -53,29 +75,7 @@
                         <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
                     </div>
                     <div class="card-body">
-                        <p class="card-text text-center">Text of image 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-9">
-                <div class="card my-4">
-                    <img class="card-img-top back" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="characteristic1">
-                    <div class="card-img-overlay">
-                        <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-center">Text of image 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-9">
-                <div class="card my-4">
-                    <img class="card-img-top back" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="characteristic1">
-                    <div class="card-img-overlay">
-                        <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-center">Text of image 1</p>
+                        <p class="card-text text-center">Serious, worker</p>
                     </div>
                 </div>
             </div>
