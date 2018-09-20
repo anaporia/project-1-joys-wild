@@ -31,10 +31,10 @@
                     <img class="d-block w-100 img-fluid img-responsive" src="img/euratech_banner.jpg" alt="first slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="second slide">
+                    <img class="d-block w-100 img-fluid img-responsive" src="img/euratech_futur.jpg" alt="second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="third slide">
+                    <img class="d-block w-100 img-fluid img-responsive" src="img/euratech_futur2.jpg" alt="third slide">
                 </div>
             </div>
 
