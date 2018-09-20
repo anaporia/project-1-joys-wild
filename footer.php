@@ -1,4 +1,4 @@
-<footer class="page-footer font-small black">
+<footer class="page-footer font-small orangered">
     <div class="container">
         <ul class="row text-center d-flex justify-content-center pt-5 mb-3">
             <li class="col-xs-12 col-sm-2 text-uppercase font-weight-bold">
@@ -30,7 +30,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                Go see on Google !!!
+                Google it !!!
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
