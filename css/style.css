@@ -11,34 +11,47 @@
 	font-style: bold;
 }
 
-/*GUESTBOOK*/
-
-/*body{
-	background-color: orange;
-	color: white;
+h1, h2, h3, h4, h5 {
+	font-family: 'AmaticSC-Bold';
+	font-weight: bold;
 }
 
-.container{
-	background-color: teal;
-}*/
+/*JOYS*/
 
-#buttonGuestbook{
-	width: 10%;
+#joys-text, #gifs {
 	font-family: 'JosefinRegular';
 }
 
-.imageGuest{
-	border-left: 2px solid orange;
-	border-top: 2px solid orange;
-	border-bottom: 2px solid orange;
+/*GUESTBOOK*/
+
+#guestbook {
+	background-color: rgba(255,69,0, 0.6);
+	color: white;
+}
+
+#buttonGuestbook {
+	width: 60px;
+	font-family: 'JosefinRegular';
+}
+
+#buttonGuestbook:hover {
+	background-color: teal;
+}
+
+.imageGuest {
+	border-left: 2px solid teal;
+	border-top: 2px solid teal;
+	border-bottom: 2px solid teal;
 	margin-top: 2%;
 	margin-bottom: 3%;
 	padding-left: 2%;
+	height: 161px;
+	width: 161px;
 }
 
-.messageGuest{
-	border-top: 2px solid orange;
-	border-bottom: 2px solid orange;
+.messageGuest {
+	border-top: 2px solid teal;
+	border-bottom: 2px solid teal;
 	margin-top: 2%;
 	margin-bottom: 3%;
 	font-family: 'JosefinRegular';
@@ -47,12 +60,14 @@
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-bottom: 5%;
+	background-color: teal;
 }
 
-.dateGuest{
-	border-right: 2px solid orange;
-	border-top: 2px solid orange;
-	border-bottom: 2px solid orange;
+.dateGuest {
+	border-right: 2px solid teal;
+	border-top: 2px solid teal;
+	border-bottom: 2px solid teal;
+	border-left: 2px solid orangered;
 	margin-top: 2%;
 	margin-bottom: 3%;
 	font-family: 'JosefinRegular';
@@ -61,102 +76,121 @@
 	padding-right: 3%;
 	padding-bottom: 6%;
 	text-align: center;
+	background-color: teal;
 }
 
-#book{
+#book {
 	margin-left: 5%;
 	margin-right: 5%;
 }
 
-h1{
+h1 {
 	font-family: 'AmaticSC-Bold';
 }
 
-.guestbook-request p{
+.guestbook-request p {
 	font-family: 'JosefinRegular';
 }
 
-/*if the message is too big, ADD a bar that allows to scroll
-	
-	add media queries for when the guestbook goes super small,
-	then the image of the reindeer dissapears and only the text and
-	date stay, for .... tablet size i think hehe	
 
-*/
+@media only screen and (max-width: 992px) {
+	.imageGuest {
+		display: none;
+	}	
+}
+
+#trainers img {
+	width: 280px;
+}	
 
 /*STUDENTS AND TRAINERS HOVER*/
 
-.back
-{
+.back {
 	visibility: hidden;
 }
 
-.card:hover .front
-{
+.card:hover .front {
 	visibility: hidden;
 }
 
-.card:hover .back
-{
+.card:hover .back {
 	visibility: visible;
 }
 
-.media:hover .front
-{
+.media:hover .front {
 	visibility: hidden;
 }
 
-.media:hover .back
-{
+.media:hover .back {
 	visibility: visible;
 }
 
-.backform
-{
+.backform {
 	display: none;
 	width: 30%;
 }
 
-.frontform
-{
+.frontform {
 	visibility: visible;
 	width: 30%;
 }
 
-.media:hover .frontform
-{
+.media:hover .frontform {
 	display: none;
 }
 
-.media:hover .backform
-{
+.media:hover .backform {
 	display: inline;
 }
 
-.h1
-{
+.h1 {
 	font-style: italic;
 }
 
-.carousel-caption{
-    color:#000;
-    position:static;
+.carousel-caption {
+    color: #000;
+    position: static;
 }
-.item{
-    background-color:white;
-    display:block;
+
+.item {
+    background-color: white;
+    display: block;
 }
+
+/*STUDENTS AND TRAINERS*/
+
+#students p {
+	font-family: 'JosefinRegular';
+}
+
+#trainers {
+	font-family: 'JosefinRegular';
+}
+
 /*Background FOOTER NAVBAR*/
+
 .black {
 	background-color: #fba858;
 }
+
 /*NAVBAR*/
-a.navbar-brand{
+
+a.navbar-brand {
 	color: #fff;
+	font-size: 35px;
 }
 
-a.nav-link{
+a.nav-link {
 	color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/* EURATECH*/
+
+#euratech-text .media-body p {
+	font-family: 'JosefinRegular';
 }
 
 /* EURATECH slider */
@@ -171,20 +205,31 @@ div#keyFiguresSlider {
 }
 
 /* ICONS HOME */
-#anchors img{
+
+#anchors img {
 	border-radius: 20px;
 }
 
-.text_icon{
+#anchors p {
+	font-family: 'AmaticSC-Bold';
+	font-size: 30px;
+}
+
+.text_icon {
 	padding-top: 4%;
 }
 
 /*  FORM  */
 
-h2 {
+#contact h2 {
 	text-transform: uppercase;
-	font-weight:bold;
+	font-weight: bold;
 }
+
+#contact .row {
+	font-family: 'JosefinRegular';
+}
+
 #contact-form {
 	font-size: 20px;
 	padding: 40px;
@@ -192,6 +237,7 @@ h2 {
 }
 
 /*---  FORM sentences  ------*/
+
 .orange {
 	color: orangered;
 }
@@ -216,7 +262,7 @@ h2 {
 	border: 1px solid #ddd;
 	background: orangered;
 	color: #fff;
-	width: 100%;
+	width: 20%;
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 18px;
@@ -228,10 +274,13 @@ h2 {
 	border-color: orangered;
 }
 
-
-
 /*FOOTER*/
-footer.page-footer a{
+
+footer {
+	font-family: 'JosefinRegular';
+}
+
+footer.page-footer a {
 	color: #fff;
 }
 
@@ -239,6 +288,14 @@ footer.page-footer li {
 	list-style: none;
 }
 
-.high{
+.high {
 	width: 50%;
+}
+
+/*HEADER*/
+
+header {
+	font-family: 'AmaticSC-Bold';
+	font-size: 25px;
+	font-weight: bold;
 }

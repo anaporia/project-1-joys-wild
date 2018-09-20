@@ -50,6 +50,7 @@ function test_input($data) {
     return $data;
 }
 ?>
+
 <form method="post" action="<?php echo strip_tags($_SERVER["contact.php"]);?>">
     <div class="form-group">
         <label for="name">Name :</label>

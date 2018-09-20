@@ -6,11 +6,11 @@
     <meta name="description" content="Fun website of the Wild Code School">
     <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
     <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Dulmas, Steven Antal, Arlensiú Celis">
+    <title>WCS-Euratechnologie</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
-    <title>WCS-Euratechnologie</title>
 </head>
 
 <body>
@@ -73,9 +73,9 @@
                 <div class="media">
                     <img class="align-self-start mr-5" src="https://via.placeholder.com/350x150" alt="Generic placeholder image">
                     <div class="media-body">
-                        <h5 class="mt-0">Euratechnologies</h5>
+                        <h3 class="mt-0">Euratechnologies</h3>
                         <p>The Blan-Lafont building, the heart of the EuraTechnologies cluster, is the result of the exemplary rehabilitation of two former Lafont and Le Blan textile factories built respectively in 1896 and 1900. In 1989, following the general crisis in the cotton industry, and after having been one of the 7 largest cotton mills in France with nearly 2500 employees, the factory Blan-Lafont filed for bankruptcy. In 1996, the Urban Community of Lille opted for a conversion project: EuraTechnologies, economic center of excellence dedicated to ICT, inaugurated on March 26, 2009.</p>
-                        EuraTechnologies has become the leading incubator and accelerator in France, the center of excellence and innovation located in Lille on 80,000 m². EuraTechnologies supports the development of all digital entrepreneurs through unique methodology and know-how in business support, from seed to international deployment. Born in 2009, EuraTechnologies is ranked in the top 3 accelerators in Europe. Precursor of French Tech and spearhead of the digital economy in France.
+                        <p>EuraTechnologies has become the leading incubator and accelerator in France, the center of excellence and innovation located in Lille on 80,000 m². EuraTechnologies supports the development of all digital entrepreneurs through unique methodology and know-how in business support, from seed to international deployment. Born in 2009, EuraTechnologies is ranked in the top 3 accelerators in Europe. Precursor of French Tech and spearhead of the digital economy in France.</p>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,6 @@
 </section>
 
 <?php require('footer.php'); ?>
-
 
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

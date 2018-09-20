@@ -30,7 +30,7 @@ function postGuestbook() {                                  			// 12 - make the 
 		postMessage.classList.add("col-7", "messageGuest");
 		postDate.classList.add("col-3", "dateGuest");
 
-//        postImage.style.backgroundImage="url(img/image_guestbook2.png)" 
+        postImage.style.backgroundImage="url(img/image_guestbook2.png)" 
         postMessage.innerHTML = currentEntry.Message;       			// 5 - this tells the class or id or whatever html element that inside itself there must be certain information //
         postDate.innerHTML = currentEntry.Date;
 
