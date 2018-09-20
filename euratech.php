@@ -14,57 +14,65 @@
 </head>
 
 <body>
-<?php require('header.php'); ?>
+	<?php require('header.php'); ?>
 
-<section id="euratechCarousel">
-    <div class="container-fluid ml-0 mr-0 pl-0 pr-0">
-        <!-- carousel images -->
-        <div  class="carousel slide carousel-fade" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#euratechCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#euratechCarousel" data-slide-to="1"></li>
-                <li data-target="#euratechCarousel" data-slide-to="2"></li>
-            </ol>
-            <!-- The slideshow -->
-            <div class="carousel-inner text-center">
-                <div class="carousel-item active">
-                    <img class="d-block w-100 img-fluid img-responsive" src="img/euratech_banner.jpg" alt="first slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid img-responsive" src="img/euratech_futur.jpg" alt="second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid img-responsive" src="img/euratech_futur2.jpg" alt="third slide">
-                </div>
-            </div>
+	<section>
+		<div class="container-fluid ml-0 mr-0 pl-0 pr-0">
+			<!-- carousel images -->
+			<div class="row">
+				<div id="euratechCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#euratechCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#euratechCarousel" data-slide-to="1"></li>
+						<li data-target="#euratechCarousel" data-slide-to="2"></li>
+					</ol>
+					<!-- The slideshow -->
+					<div class="carousel-inner text-center" role="listbox">
+						<div class="carousel-item active">
+							<img class="d-block w-100 img-fluid img-responsive" src="img/euratech_banner.jpg" alt="first slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100 img-fluid img-responsive" src="img/euratech_futur.jpg" alt="second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100 img-fluid img-responsive" src="img/euratech_futur2.jpg" alt="third slide">
+						</div>
+					</div>
 
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#euratechCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#euratechCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#euratechCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#euratechCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
 
-        <!-- carousel chiffres clé-->
-        <div id="keyFiguresSlider" class="container mt-5">
-            <div class="slider">
-                <h3 class="keyFigures">wow really?!</h3>
-                <h3 class="keyFigures">I didn't know that!</h3>
-                <h3 class="keyFigures">You learn something new every day</h3>
-                <h3 class="keyFigures">This is the best key figure yet</h3>
-                <h3 class="keyFigures">good one. I wonder what's next</h3>
-                <h3 class="keyFigures">crazy figures !</h3>
-            </div>
-        </div>
-    </div>
-</section>
+		<!-- carousel chiffres clé-->
+		<div classe="row">
+			<div id="keyFiguresSlider" class="container mt-5">
+				<div class="slider">
+					<h3 class="keyFigures">wow really?!</h3>
+					<h3 class="keyFigures">I didn't know that!</h3>
+					<h3 class="keyFigures">you learn something new every day</h3>
+					<h3 class="keyFigures">this is the best key figure yet</h3>
+					<h3 class="keyFigures">unbelievable!</h3>
+					<h3 class="keyFigures">good one. I wonder what's next</h3>
+					<h3 class="keyFigures">crazy figures !</h3>
+					<h3 class="keyFigures">who's keeping track of all this ?</h3>
+					<h3 class="keyFigures">I couldn't have said it better myself</h3>
+					<h3 class="keyFigures">much intelligent. very computer</h3>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<!--section plan+texte-->
-<hr>
+	<!--section plan+texte-->
+	<hr>
 
 <section id="euratech-text" class="my-3">
     <div class="container">
@@ -83,7 +91,7 @@
     </div>
 </section>
 
-<?php require('footer.php'); ?>
+	<?php require('footer.php'); ?>
 
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
