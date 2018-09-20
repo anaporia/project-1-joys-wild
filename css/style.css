@@ -1,3 +1,5 @@
+/* Our CSS goes here */
+
 @font-face {
 	font-family: 'JosefinRegular';
 	src: url(../polices/JosefinSans-Regular.ttf) format('truetype');
@@ -8,6 +10,8 @@
 	src: url(../polices/AmaticSC-Bold.ttf) format('truetype');
 	font-style: bold;
 }
+
+/*GUESTBOOK*/
 
 /*body{
 	background-color: orange;
@@ -79,3 +83,162 @@ h1{
 	date stay, for .... tablet size i think hehe	
 
 */
+
+/*STUDENTS AND TRAINERS HOVER*/
+
+.back
+{
+	visibility: hidden;
+}
+
+.card:hover .front
+{
+	visibility: hidden;
+}
+
+.card:hover .back
+{
+	visibility: visible;
+}
+
+.media:hover .front
+{
+	visibility: hidden;
+}
+
+.media:hover .back
+{
+	visibility: visible;
+}
+
+.backform
+{
+	display: none;
+	width: 30%;
+}
+
+.frontform
+{
+	visibility: visible;
+	width: 30%;
+}
+
+.media:hover .frontform
+{
+	display: none;
+}
+
+.media:hover .backform
+{
+	display: inline;
+}
+
+.h1
+{
+	font-style: italic;
+}
+
+.carousel-caption{
+    color:#000;
+    position:static;
+}
+.item{
+    background-color:white;
+    display:block;
+}
+/*Background FOOTER NAVBAR*/
+.black {
+	background-color: #fba858;
+}
+/*NAVBAR*/
+a.navbar-brand{
+	color: #fff;
+}
+
+a.nav-link{
+	color: #fff;
+}
+
+/* EURATECH slider */
+
+h3.keyFigures {
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+div#keyFiguresSlider {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+/* ICONS HOME */
+#anchors img{
+	border-radius: 20px;
+}
+
+.text_icon{
+	padding-top: 4%;
+}
+
+/*  FORM  */
+
+h2 {
+	text-transform: uppercase;
+	font-weight:bold;
+}
+#contact-form {
+	font-size: 20px;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+/*---  FORM sentences  ------*/
+.orange {
+	color: orangered;
+}
+
+#contact-form input[type=submit] {
+	margin: 40px auto 0px;
+	display: block;
+}
+.comments {
+	font-style: italic;
+	font-size: 0.75em;
+	color: #d82c2e;
+}
+#contact-form .thank-you {
+	text-align: center;
+	margin-top: 25px;
+	font-weight: bold;
+	font-size: 2em;
+	color: #d82c2e;
+}
+.button1 {
+	border: 1px solid #ddd;
+	background: orangered;
+	color: #fff;
+	width: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 18px;
+	border-radius: 5px;
+	transition: all 0.3s ease-in 0s;
+}
+.button1:hover {
+	background: #333;
+	border-color: orangered;
+}
+
+
+
+/*FOOTER*/
+footer.page-footer a{
+	color: #fff;
+}
+
+footer.page-footer li {
+	list-style: none;
+}
+
+.high{
+	width: 50%;
+}
