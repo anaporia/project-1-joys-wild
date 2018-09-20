@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Fun website of the Wild Code School">
     <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
-    <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Dulmas, Steven Antal, Arlensiú Celis">
+    <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Delmas, Steven Antal, Arlensiú Celis">
     <title>Wild Code School</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -22,7 +22,7 @@
     </div>
 </section>
 
-<section id="anchors">
+<section id="anchors" class="my-5">
     <div class="container">
         <div class="row d-flex justify-content-between">
             <div class="col flex-column d-flex justify-content-center text-center ml-1 mr-1 mt-1 mb-1">
@@ -45,30 +45,29 @@
     </div>
 </section>
 
-<div class="container">
+
+<div class="container my-5">
     <section id="guestbook">
-        <h1 class="text-center mt-5 pt-5 pb-5">Wild Guestbook</h1>
+        <h2 class="text-center mt-5 pt-5 pb-5">Wild Guestbook</h2>
         <div class="row">
             <div class="col d-flex flex-column">
                 <form class="guestbook-request d-flex justify-content-center">
                         <p>
                             <label for="comment">Please leave us your comment: </label><br />
                             <textarea name="comment" id="comment" placeholder="Your comment here" rows="5" cols="60"></textarea>
-                        
-                            <br />
+                            <br>
                         </p>
                 </form>
                 <button id="buttonGuestbook" class="align-self-center">Send</button>
             </div>
         </div>
-
         <div class="row justify-content-center mb-5 mt-3" id="book">
             <!--Here is where the comments-->
         </div>
     </section>
 </div>
 
-<section id="contact">
+<section id="contact" class="my-5">
     <div class="container">
         <h2>Contact Us</h2>
         <form id="contact-form" method="post" action="php/contact.php" enctype="multipart/form-data">
@@ -112,12 +111,12 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="orange"><strong>* We need this informations...</strong></p>
+                    <p class="orange"><strong>* We need these informations...</strong></p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <input type="submit" class="button1" value="Send">
+                    <input type="submit" class="btn button1" value="Send">
                 </div>
             </div>
         </form>
@@ -126,13 +125,11 @@
 
 <?php require('footer.php'); ?>
 
-<!-- jQuery first, then Tether, then Bootstrap JS. -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<!--Old script (popper) that did not appear in the new documentation that I just put here between-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
 <script src="js/script.js"></script>
 <script src="guestbook.js"></script>
 </body>
