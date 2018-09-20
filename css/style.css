@@ -12,6 +12,7 @@ CONTACT
 	FORM SENTENCES
 STUDENTS AND TRAINERS
 	STUDENTS AND TRAINERS HOVER
+JOYS
 EURATECHNOLOGIES
 
 */
@@ -201,12 +202,16 @@ footer.page-footer li {
 /*STUDENTS AND TRAINERS*/
 #students p {
 	font-family: 'JosefinRegular';
+	font-size: 1.60em;
 }
 #trainers img {
 	width: 280px;
 }
 
 /*STUDENTS AND TRAINERS HOVER*/
+.back {
+	height: 400px;
+}
 
 .back {
 	visibility: hidden;
@@ -247,6 +252,12 @@ footer.page-footer li {
 .item {
 	background-color: white;
 	display: block;
+}
+
+
+/*JOYS*/
+.card {
+	width: 18rem;
 }
 
 /*EURATECHNOLOGIES*/
