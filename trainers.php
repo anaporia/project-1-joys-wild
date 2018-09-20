@@ -16,8 +16,8 @@
 <?php require('header.php'); ?>
 
 <section id="bannerfluid">
-	<div class="container-fluid">
-    	<img class="d-block w-100 pb-3" src="https://via.placeholder.com/350x75" alt="Trainers">
+	<div class="container-fluid pl-0 pr-0">
+    	<img class="d-block w-100 pb-3" src="img/high_table.png" alt="Trainers">
 	</div>
 </section>
 
@@ -26,7 +26,7 @@
 	    <div class="row justify-content-center">
 	        <div class="col-10">
 	            <div class="media flex-column flex-md-row">
-	                <img class="backform align-self-center" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="formateur1">
+	                <img class="backform align-self-center" src="img/hobbit_feet.jpg" alt="formateur1">
 	                <img class="frontform align-self-center" src="img/loic.png" alt="egoformateur1">
 	                <div class="media-body align-self-center py-3 ml-4 px-8 text-justify">
 	                    <h5 class="mt-0 mb-3">Loïc Brassart -  Javascript React Trainer </h5>
@@ -45,16 +45,16 @@
 							Creation and development of business partnerships.<br>
 							Relationship Management with School Customers.<br>
 							Recruitment, coaching and coaching of students towards employment.<br>
-							As you can see, he is always alongside his wilders .... </p>
+							As you can see,all these responsibilities lead to some drifts .... </p>
 	                </div>
-	                <img class="backform align-self-center" src="img/olivier_cover.png" alt="formateur1">
+	                <img class="backform align-self-center" src="img/olivier_cover.jpg" alt="formateur1">
 	                <img class="frontform align-self-center" src="img/olivier.png" alt="egoformateur1">
 	            </div>
 	        </div>
 
 	        <div class="col-10">
 	            <div class="media flex-column flex-md-row">
-	                <img class="backform align-self-center" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="formateur1">
+	                <img class="backform align-self-center" src="img/gaetan_cover.jpg" alt="formateur1">
 	                <img class="frontform align-self-center" src="img/gaetan.png" alt="egoformateur1">
 	                <div class="media-body align-self-center py-3 ml-4 px-8 text-justify">
 	                    <h5 class="mt-0 mb-3">Gaëtan Rolé-Dubruille - Php Trainer </h5>

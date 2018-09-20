@@ -14,14 +14,15 @@
 <body>
 <?php require('header.php'); ?>
 
-<section id="joysCarousel" class="my-3">
+
+<!--<section id="joysCarousel" class="my-3">
     <div class="container-fluid">
-        <!-- carousel images -->
-        <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000" data-wrap="true">
-            <!-- The slideshow -->
-            <div class="carousel-inner text-center">
+         carousel images -->
+        <!-- <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000" data-wrap="true">
+            The slideshow -->
+            <!--<div class="carousel-inner text-center">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="first slide">
+                    <img e" src="https://via.placeholder.com/350x100" alt="first slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="second slide">
@@ -30,8 +31,8 @@
                     <img class="d-block w-100 img-fluid img-responsive" src="https://via.placeholder.com/350x100" alt="third slide">
                 </div>
             </div>
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#joysCarousel" role="button" data-slide="prev">
+             Left and right controls -->
+            <!--<a class="carousel-control-prev" href="#joysCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
                 <span class="sr-only">Previous</span>
             </a>
@@ -41,13 +42,23 @@
             </a>
         </div>
     </div>
+</section> -->
+
+<section>
+	<div class="container justify-content-around">
+		<div class="row">
+			<div class="offset-1 col-10 mt-4">
+				<img class="d-block w-100 img-fluid img-responsive" src="img/group.jpg" alt="group photo">	
+			</div>
+		</div>
 </section>
 
-<section id="joys-text" class="my-3">
+
+<section id="joys-text" class="my-5">
     <div class="container">
         <div class="row">
-            <div class="col-10">
-                <h2>Joys of the Wild</h2>
+            <div class="offset-1 col-10 text-center">
+                <h5>Joys of the Wild</h5>
                 <p> Undertaking training at the Wild Code School is a rewarding time for every wilder where you learn community life, teamwork and help each other.<br>
                     But it is also a period of stress, fight to death during the dojos ....<br>
                     Discover below all the new expressions that you will learn from the beginning of your training: 
