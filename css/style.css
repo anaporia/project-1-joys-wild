@@ -2,12 +2,12 @@
 
 @font-face {
 	font-family: 'JosefinRegular';
-	src: url(../polices/JosefinSans-Regular.ttf) format('truetype');
+	src: url(../fonts/JosefinSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
 	font-family: 'AmaticSC-Bold';
-	src: url(../polices/AmaticSC-Bold.ttf) format('truetype');
+	src: url(../fonts/AmaticSC-Bold.ttf) format('truetype');
 	font-style: bold;
 }
 
