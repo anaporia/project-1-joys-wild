@@ -12,6 +12,16 @@
 
 <body>
 
+<!--<section id="anchors">
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">
+                <a href="students.php"><img src="img/students.png" alt="Students"></a>
+            </div>
+        </div>
+    </div>
+</section>-->
+
 	<div class="container">
 		<section id="guestbook">
 	      	<h1 class="text-center mt-5 pt-5 pb-5">Wild Guestbook</h1>

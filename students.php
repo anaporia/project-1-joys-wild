@@ -12,88 +12,16 @@
 </head>
 
 <body>
-<?php require('header.php'); ?>
 
-<section id="students">
+<--<section id="anchors">
     <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1>Student's page title</h1>
-                <p>This is the text that appears explaining the content that you are about to see.</p>
-            </div>
-        </div>
-
-        <div class="row d-flex justify-content-center">
-            <div class="col-lg-4 col-sm-6 col-9">
-                <div class="card my-4">
-                    <img class="card-img-top back" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="characteristic1">
-                    <div class="card-img-overlay">
-                        <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
-                    </div>
-                    <div class="card-body text-center">
-                        <p class="card-text">Text of image 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-9">
-                <div class="card my-4">
-                    <img class="card-img-top back" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="characteristic1">
-                    <div class="card-img-overlay">
-                        <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-center">Text of image 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-9">
-                <div class="card my-4">
-                    <img class="card-img-top back" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="characteristic1">
-                    <div class="card-img-overlay">
-                        <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-center">Text of image 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-9">
-                <div class="card my-4">
-                    <img class="card-img-top back" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="characteristic1">
-                    <div class="card-img-overlay">
-                        <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-center">Text of image 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-9">
-                <div class="card my-4">
-                    <img class="card-img-top back" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="characteristic1">
-                    <div class="card-img-overlay">
-                        <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-center">Text of image 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-9">
-                <div class="card my-4">
-                    <img class="card-img-top back" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png" alt="characteristic1">
-                    <div class="card-img-overlay">
-                        <img class="card-img-top front" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" alt="characteristic1top">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-center">Text of image 1</p>
-                    </div>
-                </div>
+        <div class="row d-flex justify-content-between">
+            <div class="col d-flex justify-content-center ml-1 mr-1 mt-1 mb-1">
+                <a href="indextrial.php"><img src="img/image_guestbook2.png" alt="Indextrial"></a>
             </div>
         </div>
     </div>
 </section>
-<?php require('footer.php'); ?>
 
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
