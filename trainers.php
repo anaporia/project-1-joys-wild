@@ -45,7 +45,7 @@
 							Creation and development of business partnerships.<br>
 							Relationship Management with School Customers.<br>
 							Recruitment, coaching and coaching of students towards employment.<br>
-							As you can see, he is always alongside his wilders .... </p>
+							As you can see,all these responsibilities lead to some drifts .... </p>
 	                </div>
 	                <img class="backform align-self-center" src="img/olivier_cover.jpg" alt="formateur1">
 	                <img class="frontform align-self-center" src="img/olivier.png" alt="egoformateur1">
