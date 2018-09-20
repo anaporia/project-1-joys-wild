@@ -30,7 +30,7 @@ function postGuestbook() {                                  			// 12 - make the 
 		postMessage.classList.add("col-7", "messageGuest");
 		postDate.classList.add("col-3", "dateGuest");
 
-        postImage.style.backgroundImage="url(img/image_guestbook2.png)" 
+//        postImage.style.backgroundImage="url(img/image_guestbook2.png)" 
         postMessage.innerHTML = currentEntry.Message;       			// 5 - this tells the class or id or whatever html element that inside itself there must be certain information //
         postDate.innerHTML = currentEntry.Date;
 
@@ -44,7 +44,24 @@ function writeDate(todayDate){
 	return todayDate.toString().slice(4, 21).replace(" 2", ", 2");		// 17 - Function that converts the date on a string in the format we want
 }
 
-postGuestbook();                                            			// 14 - You realize there is no list to begin with so you put the list before any changes
+function store(guestData){														// 19 - Function to store in local storage
+	let guestbookSerialized = JSON.stringify(guestData);
+    localStorage.setItem("myBook", guestbookSerialized);
+    console.log(guestbookSerialized);
+}
+
+function showStored(){													// 20 - Function to call back the stored data
+
+	let guestbookDeserialized = JSON.parse(localStorage.getItem("myBook"));
+	console.log(guestbookDeserialized);
+
+	postGuestbook(); 
+}
+
+//postGuestbook();                                            			// 14 - You realize there is no list to begin with so you put the list before any changes
+
+store(guestbookEntries);
+showStored();
 
 let buttonGuestbook = document.querySelector("#buttonGuestbook");    	// 7 - Tell to get the element button
     buttonGuestbook.addEventListener("click", function(){               // 8 - Add event click to the element button
@@ -59,18 +76,11 @@ let buttonGuestbook = document.querySelector("#buttonGuestbook");    	// 7 - Tel
     };
 
     guestbookEntries.push(newEntry);                            		// 11 - Put the new entry as part of the Guestbook array
-    postGuestbook();                                            		// 13 - Make the list appear once the data is asked and can be added to show
+ //   postGuestbook();                                            		// 13 - Make the list appear once the data is asked and can be added to show
+
+	store(guestbookEntries);
+	showStored();
 
     document.querySelector("textarea").value = null;					// 18 - Empty the textarea box after the message has been sent
     
-//    let guestbookSerialized = JSON.stringify(guestbookEntries);
-
-//    localStorage.setItem("myBook", guestbookSerialized);
-
-//    let guestbookDeserialized = JSON.parse(localStorage.getItem("myBook"));
- 
-//    console.log(guestbookDeserialized);
-
     });
-
-// console.log(guestbookEntries);
