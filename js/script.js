@@ -11,8 +11,7 @@ $(function () {
             data: postdata,
             dataType: 'json',
             success: function(json) {
-
-                if(json.isSuccess) {
+                if (json.isSuccess) {
                     $('#contact-form').append("<p class='thank-you'>Data !!!! Even more data !!!! Full of data !!!!! Mouhaha !!!</p>");
                     $('#contact-form')[0].reset();
                 } else {
