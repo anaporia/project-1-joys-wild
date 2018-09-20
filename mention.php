@@ -6,16 +6,15 @@
     <meta name="description" content="Fun website of the Wild Code School">
     <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
     <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Dulmas, Steven Antal, Arlensiú Celis">
+    <title>WCS - Legal Mentions</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>WCS - Legal Mentions</title>
 </head>
 
 <body>
 <?php require('header.php'); ?>
 
 <section id="mentions-legales">
-
     <h2>法律信息</h2>
     <div class="container">
         <div class="row">

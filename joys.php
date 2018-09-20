@@ -6,9 +6,9 @@
     <meta name="description" content="Fun website of the Wild Code School">
     <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
     <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Dulmas, Steven Antal, Arlensiú Celis">
+    <title>WCS - The Joys of the Wild</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>WCS - The Joys of the Wild</title>
 </head>
 
 <body>
@@ -47,7 +47,7 @@
     <div class="container">
         <div class="row">
             <div class="col-10">
-                <h5>Joys of the Wild</h5>
+                <h2>Joys of the Wild</h2>
                 <p> Undertaking training at the Wild Code School is a rewarding time for every wilder where you learn community life, teamwork and help each other.<br>
                     But it is also a period of stress, fight to death during the dojos ....<br>
                     Discover below all the new expressions that you will learn from the beginning of your training: 
@@ -92,8 +92,8 @@
         </div>
     </div>
 </section>
-<?php require('footer.php'); ?>
 
+<?php require('footer.php'); ?>
 
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
