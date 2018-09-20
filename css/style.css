@@ -1,5 +1,23 @@
-/* Our CSS goes here */
+/* -- SUMMARY --
 
+FONTS
+GENERAL
+GUESTBOOK
+HEADER
+	NAVBAR
+FOOTER
+ICONS HOME
+GUESTBOOK
+CONTACT
+	FORM SENTENCES
+STUDENTS AND TRAINERS
+	STUDENTS AND TRAINERS HOVER
+EURATECHNOLOGIES
+
+*/
+
+
+/*FONTS*/
 @font-face {
 	font-family: 'JosefinRegular';
 	src: url(../fonts/JosefinSans-Regular.ttf) format('truetype');
@@ -11,33 +29,73 @@
 	font-style: bold;
 }
 
-h1, h2, h3, h4, h5 {
+/*GENERAL*/
+h1, h2, h3, h4, h5, header {
 	font-family: 'AmaticSC-Bold';
 	font-weight: bold;
 }
-
-/*JOYS*/
-
-#joys-text, #gifs {
+#joys-text, #gifs, #trainers, footer{
 	font-family: 'JosefinRegular';
 }
 
-/*GUESTBOOK*/
 
+/*HEADER*/
+header {
+	font-size: 25px;
+}
+
+/*NAVBAR*/
+a.navbar-brand {
+	color: #fff;
+	font-size: 35px;
+}
+a.nav-link {
+	color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/*FOOTER*/
+footer.page-footer a {
+	color: #fff;
+}
+footer.page-footer li {
+	list-style: none;
+}
+.high {
+	width: 50%;
+}
+.orangered {
+	background-color: #fba858;
+}
+
+
+/* ICONS HOME */
+#anchors img {
+	border-radius: 20px;
+}
+#anchors p {
+	font-family: 'AmaticSC-Bold';
+	font-size: 30px;
+}
+.text_icon {
+	padding-top: 4%;
+}
+
+
+/*GUESTBOOK*/
 #guestbook {
 	background-color: rgba(255,69,0, 0.6);
 	color: white;
 }
-
 #buttonGuestbook {
 	width: 60px;
 	font-family: 'JosefinRegular';
 }
-
 #buttonGuestbook:hover {
 	background-color: teal;
 }
-
 .imageGuest {
 	border-left: 2px solid teal;
 	border-top: 2px solid teal;
@@ -48,7 +106,6 @@ h1, h2, h3, h4, h5 {
 	height: 161px;
 	width: 161px;
 }
-
 .messageGuest {
 	border-top: 2px solid teal;
 	border-bottom: 2px solid teal;
@@ -62,7 +119,6 @@ h1, h2, h3, h4, h5 {
 	padding-bottom: 5%;
 	background-color: teal;
 }
-
 .dateGuest {
 	border-right: 2px solid teal;
 	border-top: 2px solid teal;
@@ -78,170 +134,36 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	background-color: teal;
 }
-
 #book {
 	margin-left: 5%;
 	margin-right: 5%;
 }
-
-h1 {
-	font-family: 'AmaticSC-Bold';
-}
-
 .guestbook-request p {
 	font-family: 'JosefinRegular';
 }
-
-
 @media only screen and (max-width: 992px) {
 	.imageGuest {
 		display: none;
-	}	
-}
-
-#trainers img {
-	width: 280px;
-}	
-
-/*STUDENTS AND TRAINERS HOVER*/
-
-.back {
-	visibility: hidden;
-}
-
-.card:hover .front {
-	visibility: hidden;
-}
-
-.card:hover .back {
-	visibility: visible;
-}
-
-.media:hover .front {
-	visibility: hidden;
-}
-
-.media:hover .back {
-	visibility: visible;
-}
-
-.backform {
-	display: none;
-	width: 30%;
-}
-
-.frontform {
-	visibility: visible;
-	width: 30%;
-}
-
-.media:hover .frontform {
-	display: none;
-}
-
-.media:hover .backform {
-	display: inline;
-}
-
-.h1 {
-	font-style: italic;
-}
-
-.carousel-caption {
-    color: #000;
-    position: static;
-}
-
-.item {
-    background-color: white;
-    display: block;
-}
-
-/*STUDENTS AND TRAINERS*/
-
-#students p {
-	font-family: 'JosefinRegular';
-}
-
-#trainers {
-	font-family: 'JosefinRegular';
-}
-
-/*Background FOOTER NAVBAR*/
-
-.black {
-	background-color: #fba858;
-}
-
-/*NAVBAR*/
-
-a.navbar-brand {
-	color: #fff;
-	font-size: 35px;
-}
-
-a.nav-link {
-	color: #fff;
-	margin-left: 10px;
-	margin-right: 10px;
+	}
 }
 
 
-/* EURATECH*/
-
-#euratech-text .media-body p {
-	font-family: 'JosefinRegular';
-}
-
-/* EURATECH slider */
-
-h3.keyFigures {
-	font-size: 1.5rem;
-	line-height: 3rem;
-}
-div#keyFiguresSlider {
-	margin-top: 3rem;
-	text-align: center;
-}
-
-/* ICONS HOME */
-
-#anchors img {
-	border-radius: 20px;
-}
-
-#anchors p {
-	font-family: 'AmaticSC-Bold';
-	font-size: 30px;
-}
-
-.text_icon {
-	padding-top: 4%;
-}
-
-/*  FORM  */
-
+/*  CONTACT */
 #contact h2 {
 	text-transform: uppercase;
-	font-weight: bold;
 }
-
 #contact .row {
 	font-family: 'JosefinRegular';
 }
-
 #contact-form {
 	font-size: 20px;
 	padding: 40px;
-	border-radius: 10px;
 }
 
-/*---  FORM sentences  ------*/
-
+/* FORM SENTENCES */
 .orange {
 	color: orangered;
 }
-
 #contact-form input[type=submit] {
 	margin: 40px auto 0px;
 	display: block;
@@ -252,8 +174,9 @@ div#keyFiguresSlider {
 	color: #d82c2e;
 }
 #contact-form .thank-you {
+	font-family: 'JosefinRegular';
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 30px;
 	font-weight: bold;
 	font-size: 2em;
 	color: #d82c2e;
@@ -274,28 +197,74 @@ div#keyFiguresSlider {
 	border-color: orangered;
 }
 
-/*FOOTER*/
 
-footer {
+/*STUDENTS AND TRAINERS*/
+#students p {
 	font-family: 'JosefinRegular';
 }
-
-footer.page-footer a {
-	color: #fff;
+#trainers img {
+	width: 280px;
 }
 
-footer.page-footer li {
-	list-style: none;
+/*STUDENTS AND TRAINERS HOVER*/
+
+.back {
+	visibility: hidden;
+}
+.card:hover .front {
+	visibility: hidden;
+}
+.card:hover .back {
+	visibility: visible;
+}
+.media:hover .front {
+	visibility: hidden;
+}
+.media:hover .back {
+	visibility: visible;
+}
+.backform {
+	display: none;
+	width: 30%;
+}
+.frontform {
+	visibility: visible;
+	width: 30%;
+}
+.media:hover .frontform {
+	display: none;
+}
+.media:hover .backform {
+	display: inline;
+}
+.h1 {
+	font-style: italic;
+}
+.carousel-caption {
+	color: #000;
+	position: static;
+}
+.item {
+	background-color: white;
+	display: block;
 }
 
-.high {
-	width: 50%;
+/*EURATECHNOLOGIES*/
+#euratech-text .media-body p {
+	font-family: 'JosefinRegular';
+}
+iframe {
+	width: 550px;
+	height: 410px;
+	border: 0;
 }
 
-/*HEADER*/
-
-header {
-	font-family: 'AmaticSC-Bold';
-	font-size: 25px;
-	font-weight: bold;
+/* EURATECHNOLOGIES slider */
+h3.keyFigures {
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+div#keyFiguresSlider {
+	margin-top: 3rem;
+	text-align: center;
 }
