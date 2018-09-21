@@ -26,6 +26,7 @@ Requires PHP 7.2
 
 ### Structure
 
+```
 src        
 	contact.php         
 public         
@@ -48,7 +49,7 @@ public
 	students.php             
 	trainers.php           
 	README.md           
-	
+```	
 
 ### Installing
 
