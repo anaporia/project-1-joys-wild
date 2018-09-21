@@ -53,7 +53,7 @@ public
 
 ### Installing
 
-git clone --url
+git clone --https://github.com/arlensiuerendira/project-1-joys-wild.git
 
 
 ## Acknowledgments
