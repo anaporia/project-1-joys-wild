@@ -292,6 +292,23 @@ footer.page-footer li {
 	width: 50%;
 }
 
+.fa-heart {
+  color: red;
+  opacity: .8;
+  font-size: 1.2vw;
+  vertical-align: middle;
+  animation: pulse 1s ease infinite;
+}
+/**** Pulsing Heart ****/
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
 /*HEADER*/
 
 header {
