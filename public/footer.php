@@ -13,7 +13,7 @@
         </ul>
         <div class="row">
             <div class="text-center py-3">
-                <a href="https://wildcodeschool.fr/" target="_blank">Made with &nbsp <i class="fas fa-heart"></i> &nbsp by Wild Code School</a>
+                <a href="https://wildcodeschool.fr/" target="_blank">Made with by Wild Code School</a>
             </div>
         </div>
     </div>
