@@ -42,6 +42,7 @@ function showStored(){													// 20 - Function to call back the stored data
 
 	let guestbookDeserialized = JSON.parse(localStorage.getItem("myBook"));
 	console.log(guestbookDeserialized);
+	guestbookEntries = guestbookDeserialized;
 
 	postGuestbook(guestbookDeserialized);
 };
@@ -52,7 +53,7 @@ function showStored(){													// 20 - Function to call back the stored data
 showStored();
 
 let buttonGuestbook = document.querySelector("#buttonGuestbook");    	// 7 - Tell to get the element button
-    buttonGuestbook.addEventListener("click", function(){               // 8 - Add event click to the element button
+buttonGuestbook.addEventListener("click", function(){               // 8 - Add event click to the element button
 
 //    let newMessage = prompt("Write a new message: ");               	// 9 - Ask user the info, I have to change this to a get string from Text-area field
     let newMessage = document.querySelector("textarea").value;          // 9 - Info comes from the textarea box and .value gets the inside of the box
@@ -71,4 +72,4 @@ let buttonGuestbook = document.querySelector("#buttonGuestbook");    	// 7 - Tel
 
     document.querySelector("textarea").value = null;					// 18 - Empty the textarea box after the message has been sent
     
-    });
+});
