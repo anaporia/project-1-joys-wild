@@ -35,16 +35,18 @@ function writeDate(todayDate){
 function store(guestData){														// 19 - Function to store in local storage
 	let guestbookSerialized = JSON.stringify(guestData);
     localStorage.setItem("myBook", guestbookSerialized);
-    console.log(guestbookSerialized);
 };
 
 function showStored(){													// 20 - Function to call back the stored data
 
 	let guestbookDeserialized = JSON.parse(localStorage.getItem("myBook"));
-	console.log(guestbookDeserialized);
-	guestbookEntries = guestbookDeserialized;
+	if(guestbookDeserialized !== null){
+		guestbookEntries = guestbookDeserialized;
+		postGuestbook(guestbookDeserialized);
+	} else {
+			postGuestbook(guestbookEntries);
+	}
 
-	postGuestbook(guestbookDeserialized);
 };
 
 //postGuestbook();                                            			// 14 - You realize there is no list to begin with so you put the list before any changes
