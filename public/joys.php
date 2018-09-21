@@ -44,7 +44,7 @@
 <section id="joys-card" class="my-5">
     <div class="container-fluid d-flex justify-content-around">
         <div class="row">
-            <div class="col">
+            <div class="col d-flex justify-content-center">
                 <div class="card">
                     <img class="card-img-top" src="https://media.giphy.com/media/10DjIRoAfylalG/giphy.gif" alt="Card image cap">
                     <div class="card-body">
@@ -52,7 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col d-flex justify-content-center">
                 <div class="card">
                     <img class="card-img-top" src="https://media.giphy.com/media/9kKlRx7qpUGze/giphy.gif" alt="Card image cap">
                     <div class="card-body">
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col d-flex justify-content-center">
                 <div class="card">
                     <img class="card-img-top" src="https://media.giphy.com/media/HZpCCbcWc0a3u/giphy.gif" alt="Card image cap">
                     <div class="card-body">
@@ -72,7 +72,7 @@
     </div>
     <div class="container-fluid d-flex justify-content-around my-5">
         <div class="row">
-            <div class="col">
+            <div class="col d-flex justify-content-center">
                 <div class="card">
                     <img class="card-img-top" src="https://media.giphy.com/media/orNv7BpL7Y2iI/giphy.gif" alt="Card image cap">
                     <div class="card-body">
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col d-flex justify-content-center">
                 <div class="card">
                     <img class="card-img-top" src="https://media.giphy.com/media/h41bl4ZNk276w/giphy.gif" alt="Card image cap">
                     <div class="card-body">
@@ -88,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col d-flex justify-content-center">
                 <div class="card">
                     <img class="card-img-top" src="https://media.giphy.com/media/1Xn0wUBoeOtRC/giphy.gif" alt="Card image cap">
                     <div class="card-body">

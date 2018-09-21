@@ -72,7 +72,7 @@
 <section id="euratech-text" class="my-5">
     <div class="container">
         <div class="row">
-            <div class="media col">
+            <div class="media col mb-3">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.6789855330467!2d3.017742615659556!3d50.63307997950099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d55c764ab439%3A0x2e9bfd5c48d283b!2sEuraTechnologies!5e0!3m2!1sfr!2sfr!4v1537468324492"
                         allowfullscreen></iframe>
             </div>
