@@ -7,10 +7,10 @@
     <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
     <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Delmas, Steven Antal, Arlensiú Celis">
     <title>WCS-Euratechnologie</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick-theme.css"/>
 </head>
 
 <body>
@@ -29,13 +29,13 @@
                 <!-- The slideshow -->
                 <div class="carousel-inner text-center" role="listbox">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 img-fluid img-responsive" src="img/euratech_banner.jpg" alt="first slide">
+                        <img class="d-block w-100 img-fluid img-responsive" src="assets/img/euratech_banner.jpg" alt="first slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid img-responsive" src="img/euratech_futur.jpg" alt="second slide">
+                        <img class="d-block w-100 img-fluid img-responsive" src="assets/img/euratech_futur.jpg" alt="second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid img-responsive" src="img/euratech_futur2.jpg" alt="third slide">
+                        <img class="d-block w-100 img-fluid img-responsive" src="assets/img/euratech_futur2.jpg" alt="third slide">
                     </div>
                 </div>
 
@@ -98,11 +98,11 @@
 <?php require('footer.php'); ?>
 
 
-<script src="js/jquery-3.3.1.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="bootstrap/js/bootstrap.js"></script>
-<script src="slick-1.8.1/slick/slick.min.js"></script>
-<script src="js/slider.js"></script>
+<script src="assets/js/jquery-3.3.1.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/tether.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.js"></script>
+<script src="assets/slick-1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/slider.js"></script>
 </body>
 </html>

@@ -7,8 +7,8 @@
     <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
     <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Delmas, Steven Antal, Arlensiú Celis">
     <title>WCS-The Joys of the Wild</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <div class="container justify-content-around">
         <div class="row">
             <div class="offset-1 col-10 mt-4">
-                <img class="d-block w-100 img-fluid img-responsive" src="img/group.jpg" alt="group photo">
+                <img class="d-block w-100 img-fluid img-responsive" src="assets/img/group.jpg" alt="group photo">
             </div>
         </div>
     </div>
@@ -101,9 +101,9 @@
 
 <?php require('footer.php'); ?>
 
-<script src="js/jquery-3.3.1.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="bootstrap/js/bootstrap.js"></script>
+<script src="assets/js/jquery-3.3.1.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/tether.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>

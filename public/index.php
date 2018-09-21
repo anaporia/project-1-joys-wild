@@ -7,8 +7,8 @@
     <meta name="keywords" content="HTML,CSS,PHP,JavaScript, Wild Code School">
     <meta name="authors" content="Nicolas Duhamel, Emilie Boeglen, Julie Delmas, Steven Antal, Arlensiú Celis">
     <title>Wild Code School</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 <section id="index-banner">
     <div class="container-fluid">
         <div class="row">
-            <img class="d-block w-100 pb-3" src="img/welcome.png" alt="Wild Code School">
+            <img class="d-block w-100 pb-3" src="assets/img/welcome.png" alt="Wild Code School">
         </div>
     </div>
 </section>
@@ -26,19 +26,19 @@
     <div class="container">
         <div class="row d-flex justify-content-between">
             <div class="col flex-column d-flex justify-content-center text-center ml-1 mr-1 mt-1 mb-1">
-                <a href="students.php"><img src="img/our_students1.jpg" alt="Students"></a>
+                <a href="students.php"><img src="assets/img/our_students1.jpg" alt="Students"></a>
                 <p class="text_icon">Students</p>
             </div>
             <div class="col flex-column d-flex justify-content-center text-center ml-1 mr-1 mt-1 mb-1">
-                <a href="trainers.php"><img src="img/our_trainers.jpg" alt="Trainers"></a>
+                <a href="trainers.php"><img src="assets/img/our_trainers.jpg" alt="Trainers"></a>
                 <p class="text_icon">Trainers</p>
             </div>
             <div class="col flex-column d-flex justify-content-center text-center ml-1 mr-1 mt-1 mb-1">
-                <a href="joys.php"><img src="img/our_joy.jpg" alt="Joys of the Wild"></a>
+                <a href="joys.php"><img src="assets/img/our_joy.jpg" alt="Joys of the Wild"></a>
                 <p class="text_icon">Joys of the Wild</p>
             </div>
             <div class="col flex-column d-flex justify-content-center text-center ml-1 mr-1 mt-1 mb-1">
-                <a href="euratech.php"><img src="img/euratech_icon.jpg" alt="Euratechnologies"></a>
+                <a href="euratech.php"><img src="assets/img/euratech_icon.jpg" alt="Euratechnologies"></a>
                 <p class="text_icon">Euratechnologies</p>
             </div>
         </div>
@@ -70,7 +70,7 @@
 <section id="contact" class="my-5">
     <div class="container">
         <h2>Contact Us</h2>
-        <form id="contact-form" method="post" action="php/contact.php" enctype="multipart/form-data">
+        <form id="contact-form" method="post" action="contact.php" enctype="multipart/form-data">
             <div class="row">
                 <div class="col">
                     <label for="firstname">Firstname <span class="orange">*</span></label>
@@ -111,7 +111,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="orange"><strong>* We need these informations...</strong></p>
+                    <p class="orange"><strong>* We need information...</strong></p>
                 </div>
             </div>
             <div class="row">
@@ -126,11 +126,11 @@
 <?php require('footer.php'); ?>
 
 
-<script src="js/jquery-3.3.1.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="bootstrap/js/bootstrap.js"></script>
-<script src="js/script.js"></script>
+<script src="assets/js/jquery-3.3.1.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/tether.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.js"></script>
+<script src="assets/js/script.js"></script>
 <script src="guestbook.js"></script>
 </body>
 </html>

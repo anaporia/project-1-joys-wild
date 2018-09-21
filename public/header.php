@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg orangered">
         <a class="navbar-brand" href="index.php">Wild Code School</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <img class="navbar-toggler-icon" src="img/button.jpg">
+            <img class="navbar-toggler-icon" src="assets/img/button.jpg">
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
