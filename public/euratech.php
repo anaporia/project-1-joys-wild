@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick-theme.css"/>
-    <link rel="shortcut icon" type="image/png" href="img/faviconwild.png">
+    <link rel="shortcut icon" type="image/png" href="assets/img/faviconwild.png">
 </head>
 
 <body>
