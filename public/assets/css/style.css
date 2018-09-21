@@ -1,0 +1,291 @@
+/* -- SUMMARY --
+
+FONTS
+GENERAL
+GUESTBOOK
+HEADER
+	NAVBAR
+FOOTER
+ICONS HOME
+GUESTBOOK
+CONTACT
+	FORM SENTENCES
+STUDENTS AND TRAINERS
+	STUDENTS AND TRAINERS HOVER
+JOYS
+EURATECHNOLOGIES
+	EURATECHNOLOGIES SLIDER
+
+*/
+
+
+/*FONTS*/
+@font-face {
+	font-family: 'JosefinRegular';
+	src: url(../fonts/JosefinSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'AmaticSC-Bold';
+	src: url(../fonts/AmaticSC-Bold.ttf) format('truetype');
+	font-style: bold;
+}
+
+/*GENERAL*/
+h1, h2, h3, h4, h5, header {
+	font-family: 'AmaticSC-Bold';
+	font-weight: bold;
+}
+#joys-text, #gifs, #trainers, footer{
+	font-family: 'JosefinRegular';
+}
+
+
+/*HEADER*/
+header {
+	font-size: 25px;
+}
+
+/*NAVBAR*/
+a.navbar-brand {
+	color: #fff;
+	font-size: 35px;
+}
+a.nav-link {
+	color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/*FOOTER*/
+footer.page-footer a {
+	color: #fff;
+}
+footer.page-footer li {
+	list-style: none;
+}
+.high {
+	width: 50%;
+}
+.orangered {
+	background-color: #fba858;
+}
+
+
+/* ICONS HOME */
+#anchors img {
+	border-radius: 20px;
+}
+#anchors p {
+	font-family: 'AmaticSC-Bold';
+	font-size: 30px;
+}
+.text_icon {
+	padding-top: 4%;
+}
+
+
+/*GUESTBOOK*/
+#guestbook {
+	background-color: rgba(255,69,0, 0.6);
+	color: white;
+}
+#buttonGuestbook {
+	width: 60px;
+	font-family: 'JosefinRegular';
+}
+#buttonGuestbook:hover {
+	background-color: teal;
+}
+.imageGuest {
+	border-left: 2px solid teal;
+	border-top: 2px solid teal;
+	border-bottom: 2px solid teal;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-left: 2%;
+	height: 161px;
+	width: 161px;
+}
+.messageGuest {
+	border-top: 2px solid teal;
+	border-bottom: 2px solid teal;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	font-family: 'JosefinRegular';
+	vertical-align: middle;
+	padding-top: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 5%;
+	background-color: teal;
+}
+.dateGuest {
+	border-right: 2px solid teal;
+	border-top: 2px solid teal;
+	border-bottom: 2px solid teal;
+	border-left: 2px solid orangered;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	font-family: 'JosefinRegular';
+	padding-top: 6%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 6%;
+	text-align: center;
+	background-color: teal;
+}
+#book {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.guestbook-request p {
+	font-family: 'JosefinRegular';
+}
+@media only screen and (max-width: 992px) {
+	.imageGuest {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.guestbook-request textarea {
+	width: 280px;
+	}
+}
+
+/*CONTACT*/
+#contact h2 {
+	text-transform: uppercase;
+}
+#contact .row {
+	font-family: 'JosefinRegular';
+}
+#contact-form {
+	font-size: 20px;
+	padding: 40px;
+}
+
+/* FORM SENTENCES */
+.orange {
+	color: orangered;
+}
+#contact-form input[type=submit] {
+	margin: 40px auto 0px;
+	display: block;
+}
+.comments {
+	font-style: italic;
+	font-size: 0.75em;
+	color: #d82c2e;
+}
+#contact-form .thank-you {
+	font-family: 'JosefinRegular';
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 2em;
+	color: #d82c2e;
+}
+.button1 {
+	border: 1px solid #ddd;
+	background: orangered;
+	color: #fff;
+	width: 20%;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 18px;
+	border-radius: 5px;
+	transition: all 0.3s ease-in 0s;
+}
+
+@media only screen and (max-width: 768px) {
+	.button1 {
+	width: 50%;
+	}
+}
+
+.button1:hover {
+	background: #333;
+	border-color: orangered;
+}
+
+
+/*STUDENTS AND TRAINERS*/
+#students p {
+	font-family: 'JosefinRegular';
+	font-size: 1.60em;
+}
+#trainers img {
+	width: 280px;
+}
+
+/*STUDENTS AND TRAINERS HOVER*/
+.back {
+	height: 400px;
+	visibility: hidden;
+}
+.card:hover .front {
+	visibility: hidden;
+}
+.card:hover .back {
+	visibility: visible;
+}
+.media:hover .front {
+	visibility: hidden;
+}
+.media:hover .back {
+	visibility: visible;
+}
+.backform {
+	display: none;
+	width: 30%;
+}
+.frontform {
+	visibility: visible;
+	width: 30%;
+}
+.media:hover .frontform {
+	display: none;
+}
+.media:hover .backform {
+	display: inline;
+}
+.h1 {
+	font-style: italic;
+}
+.carousel-caption {
+	color: #000;
+	position: static;
+}
+.item {
+	background-color: white;
+	display: block;
+}
+
+
+/*JOYS*/
+.card {
+	width: 18rem;
+}
+
+/*EURATECHNOLOGIES*/
+#euratech-text .media-body p {
+	font-family: 'JosefinRegular';
+}
+iframe {
+	width: 550px;
+	height: 410px;
+	border: 0;
+}
+
+/*EURATECHNOLOGIES SLIDER*/
+h3.keyFigures {
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+div#keyFiguresSlider {
+	margin-top: 3rem;
+	text-align: center;
+}
