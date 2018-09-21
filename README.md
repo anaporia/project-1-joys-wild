@@ -26,9 +26,7 @@ Requires PHP 7.2
 
 ### Structure
 
-```
-src        
-	contact.php         
+```                 
 public         
 	assets        
 		bootstrap      
@@ -39,7 +37,8 @@ public
 			slider.js           
 		img        
 			...        
-		font        
+		fonts     
+	contact.php	   
 	euratech.php          
 	footer.php         
 	header.php       
@@ -48,7 +47,7 @@ public
 	mention.php           
 	students.php             
 	trainers.php           
-	README.md           
+README.md           
 ```	
 
 ### Installing
@@ -58,7 +57,6 @@ git clone --https://github.com/arlensiuerendira/project-1-joys-wild.git
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* https://giphy.com/
+* https://pixabay.com/fr/
 
