@@ -9,6 +9,7 @@
     <title>Wild Code School</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/faviconwild.png">
 
 </head>
 
