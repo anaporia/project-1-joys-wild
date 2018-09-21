@@ -52,8 +52,7 @@ public
 
 ### Installing
 
-git clone --url        
-install bootstrap 4.1.3 http://getbootstrap.com/docs/4.1/getting-started/download/
+git clone --url
 
 
 ## Acknowledgments
