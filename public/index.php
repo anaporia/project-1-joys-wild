@@ -131,6 +131,6 @@
 <script src="assets/js/tether.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.js"></script>
 <script src="assets/js/script.js"></script>
-<script src="guestbook.js"></script>
+<script src="assets/js/guestbook.js"></script>
 </body>
 </html>
