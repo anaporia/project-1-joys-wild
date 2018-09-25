@@ -1,3 +1,5 @@
+<div><img src="https://github.com/arlensiuerendira/project-1-joys-wild/tree/master/public/assets/img/Joys_of_the_Wild.png" title="Joys-of-the-Wild" alt="Joys-of-the-Wild"></div>
+
 # Project Title
 
 A funny website about the Wild Code School !
