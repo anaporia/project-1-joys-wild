@@ -1,4 +1,4 @@
-![Joys-of-the-Wild](https://github.com/arlensiuerendira/project-1-joys-wild/tree/dev/public/assets/img/Joys_of_the_Wild.png)
+![Joys-of-the-Wild](public/assets/img/Joys_of_the_Wild.png)
 
 # Project Title
 
