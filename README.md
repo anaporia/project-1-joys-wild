@@ -1,4 +1,4 @@
-<div><img src="https://github.com/arlensiuerendira/project-1-joys-wild/tree/dev/public/assets/img/Joys_of_the_Wild.png" title="Joys-of-the-Wild" alt="Joys-of-the-Wild"></div>
+![Joys-of-the-Wild](https://github.com/arlensiuerendira/project-1-joys-wild/tree/dev/public/assets/img/Joys_of_the_Wild.png)
 
 # Project Title
 
