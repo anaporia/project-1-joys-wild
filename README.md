@@ -1,3 +1,5 @@
+![Joys-of-the-Wild](public/assets/img/Joys_of_the_Wild.png)
+
 # Project Title
 
 A funny website about the Wild Code School !
